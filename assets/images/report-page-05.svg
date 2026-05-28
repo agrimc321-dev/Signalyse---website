@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1131" width="800" height="1131">
+  <!-- EDIT ME: Replace this placeholder with a real report page export -->
+  <rect width="800" height="1131" fill="#FAF7F0"/>
+  <rect width="800" height="56" fill="#F2EEE2"/>
+  <line x1="0" y1="56" x2="800" y2="56" stroke="#1A1A1A" stroke-width="0.5" opacity="0.15"/>
+  <text x="40" y="34" font-family="Georgia,serif" font-size="9" fill="#8A8A82" letter-spacing="2">NORTHWIND ANALYTICS · CONFIDENTIAL</text>
+  <text x="760" y="34" font-family="Georgia,serif" font-size="9" fill="#8A8A82" text-anchor="end" letter-spacing="2">PAGE 05</text>
+  <text x="40" y="105" font-family="Georgia,serif" font-size="9" fill="#C8102E" letter-spacing="3">§ 04 · PROMOTIONS ANALYSIS</text>
+  <text x="40" y="145" font-family="Georgia,serif" font-size="26" fill="#1A1A1A">Real lift vs demand-shifting</text>
+  <rect x="40" y="157" width="28" height="1" fill="#C8102E"/>
+  <rect x="40" y="177" width="500" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40" y="194" width="460" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <!-- dual bar chart -->
+  <rect x="40" y="230" width="720" height="280" fill="none" stroke="#1A1A1A" stroke-width="0.5" opacity="0.15"/>
+  <!-- grid lines -->
+  <line x1="40" y1="300" x2="760" y2="300" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <line x1="40" y1="370" x2="760" y2="370" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <line x1="40" y1="440" x2="760" y2="440" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <!-- baseline bars -->
+  <rect x="75"  y="370" width="36" height="140" fill="#1A1A1A" opacity="0.12"/>
+  <rect x="175" y="340" width="36" height="170" fill="#1A1A1A" opacity="0.12"/>
+  <rect x="275" y="355" width="36" height="155" fill="#1A1A1A" opacity="0.12"/>
+  <rect x="375" y="345" width="36" height="165" fill="#1A1A1A" opacity="0.12"/>
+  <rect x="475" y="360" width="36" height="150" fill="#1A1A1A" opacity="0.12"/>
+  <rect x="575" y="350" width="36" height="160" fill="#1A1A1A" opacity="0.12"/>
+  <rect x="675" y="365" width="36" height="145" fill="#1A1A1A" opacity="0.12"/>
+  <!-- promo bars (taller, accent colour) -->
+  <rect x="120" y="280" width="36" height="230" fill="#C8102E" opacity="0.30"/>
+  <rect x="220" y="250" width="36" height="260" fill="#C8102E" opacity="0.30"/>
+  <rect x="320" y="268" width="36" height="242" fill="#C8102E" opacity="0.30"/>
+  <rect x="420" y="258" width="36" height="252" fill="#C8102E" opacity="0.30"/>
+  <rect x="520" y="272" width="36" height="238" fill="#C8102E" opacity="0.30"/>
+  <rect x="620" y="263" width="36" height="247" fill="#C8102E" opacity="0.30"/>
+  <!-- net lift line -->
+  <polyline points="93,360 193,330 293,344 393,335 493,348 593,338 693,352" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.6"/>
+  <!-- callout annotation -->
+  <rect x="40"  y="556" width="160" height="14" fill="#1A1A1A" opacity="0.75" rx="0"/>
+  <rect x="220" y="556" width="240" height="9"  fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <text x="40" y="620" font-family="Georgia,serif" font-size="11" fill="#C8102E" opacity="0.5" letter-spacing="2">HEADLINE +22%  ·  NET +3%</text>
+  <!-- body text -->
+  <rect x="40" y="650" width="720" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40" y="667" width="680" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40" y="684" width="700" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40" y="701" width="640" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40" y="740" width="300" height="14" fill="#1A1A1A" opacity="0.75" rx="0"/>
+  <text x="400" y="880" font-family="Georgia,serif" font-size="16" fill="#1A1A1A" opacity="0.18" text-anchor="middle" letter-spacing="5">REPORT · PAGE 05</text>
+  <line x1="40" y1="1090" x2="760" y2="1090" stroke="#1A1A1A" stroke-width="0.5" opacity="0.10"/>
+  <text x="40"  y="1110" font-family="Georgia,serif" font-size="8" fill="#8A8A82" letter-spacing="2">NW · S-001 · TIER 1 · ANONYMISED</text>
+  <text x="760" y="1110" font-family="Georgia,serif" font-size="8" fill="#8A8A82" text-anchor="end" letter-spacing="2">© 2026 NORTHWIND ANALYTICS</text>
+</svg>

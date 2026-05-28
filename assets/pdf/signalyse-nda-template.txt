@@ -1,0 +1,25 @@
+SIGNALYSE — NDA TEMPLATE PLACEHOLDER
+=====================================
+
+EDIT ME: Replace this file with the real Signalyse NDA template.
+
+The NDA should be a PDF saved as:
+  assets/pdf/signalyse-nda-template.pdf
+
+The contact.html page links to this file for download.
+The footer on all five pages also links to it.
+
+Recommended: Use a standard mutual NDA template, reviewed by a
+solicitor. Key clauses to include:
+
+  1. Mutual confidentiality obligations
+  2. Definition of confidential information
+  3. Exclusions (information already public, independently developed)
+  4. Data handling obligations (GDPR-aligned)
+  5. Return / destruction of confidential information on request
+  6. Duration (typically 2–3 years)
+  7. Governing law (England and Wales)
+
+Once the real PDF is in place, delete this .txt file and
+update the download links in contact.html and all five footers
+from signalyse-nda-template.pdf (the href already points there).

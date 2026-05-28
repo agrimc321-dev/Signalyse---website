@@ -1,0 +1,54 @@
+<svg width="600" height="280" viewBox="0 0 600 280"
+     fill="none" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="The Forecast — weekly PDF snippet">
+
+  <rect width="600" height="280" fill="#FAF7F0"/>
+  <rect x="0.5" y="0.5" width="599" height="279" stroke="#1A1A1A" stroke-opacity="0.12"/>
+
+  <rect x="32" y="24" width="64" height="1"  fill="#C8102E" fill-opacity="0.6"/>
+  <rect x="32" y="38" width="300" height="13" rx="2" fill="#1A1A1A" fill-opacity="0.10"/>
+  <rect x="32" y="60" width="210" height="9"  rx="2" fill="#1A1A1A" fill-opacity="0.06"/>
+
+  <line x1="32" y1="84" x2="568" y2="84" stroke="#1A1A1A" stroke-opacity="0.12" stroke-width="0.5"/>
+
+  <rect x="32" y="98"  width="536" height="40" fill="#C8102E" fill-opacity="0.04" stroke="#C8102E" stroke-opacity="0.15" stroke-width="0.5"/>
+  <rect x="48" y="110" width="104" height="9" rx="2" fill="#C8102E" fill-opacity="0.30"/>
+  <rect x="184" y="110" width="72" height="9" rx="2" fill="#1A1A1A" fill-opacity="0.07"/>
+  <rect x="368" y="110" width="88" height="9" rx="2" fill="#1A1A1A" fill-opacity="0.07"/>
+  <rect x="48" y="124" width="160" height="7" rx="2" fill="#1A1A1A" fill-opacity="0.05"/>
+
+  <rect x="32"  y="152" width="536" height="100" fill="#1A1A1A" fill-opacity="0.02"/>
+  <rect x="32"  y="152" width="536" height="100" stroke="#1A1A1A" stroke-opacity="0.10" stroke-width="0.5"/>
+
+  <line x1="32"  y1="184" x2="568" y2="184" stroke="#1A1A1A" stroke-opacity="0.06" stroke-width="0.5"/>
+  <line x1="32"  y1="218" x2="568" y2="218" stroke="#1A1A1A" stroke-opacity="0.06" stroke-width="0.5"/>
+
+  <line x1="108" y1="152" x2="108" y2="252" stroke="#1A1A1A" stroke-opacity="0.05" stroke-width="0.5"/>
+  <line x1="184" y1="152" x2="184" y2="252" stroke="#1A1A1A" stroke-opacity="0.05" stroke-width="0.5"/>
+  <line x1="260" y1="152" x2="260" y2="252" stroke="#1A1A1A" stroke-opacity="0.05" stroke-width="0.5"/>
+  <line x1="336" y1="152" x2="336" y2="252" stroke="#1A1A1A" stroke-opacity="0.05" stroke-width="0.5"/>
+  <line x1="412" y1="152" x2="412" y2="252" stroke="#1A1A1A" stroke-opacity="0.05" stroke-width="0.5"/>
+  <line x1="488" y1="152" x2="488" y2="252" stroke="#1A1A1A" stroke-opacity="0.05" stroke-width="0.5"/>
+
+  <polyline points="70,222 146,204 222,214 298,188 374,198 450,174 530,184"
+            fill="none" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.20" stroke-dasharray="4,3"/>
+
+  <polyline points="70,212 146,192 222,202 298,176 374,186 450,162 530,172"
+            fill="none" stroke="#C8102E" stroke-width="2" stroke-opacity="0.60"/>
+
+  <polygon points="70,204 146,184 222,194 298,167 374,177 450,154 530,162 530,184 450,174 374,198 298,188 222,214 146,204 70,224"
+           fill="#C8102E" fill-opacity="0.06"/>
+
+  <circle cx="70"  cy="212" r="3" fill="#C8102E" fill-opacity="0.7"/>
+  <circle cx="146" cy="192" r="3" fill="#C8102E" fill-opacity="0.7"/>
+  <circle cx="222" cy="202" r="3" fill="#C8102E" fill-opacity="0.7"/>
+  <circle cx="298" cy="176" r="3" fill="#C8102E" fill-opacity="0.7"/>
+  <circle cx="374" cy="186" r="3" fill="#C8102E" fill-opacity="0.7"/>
+  <circle cx="450" cy="162" r="3" fill="#C8102E" fill-opacity="0.7"/>
+  <circle cx="530" cy="172" r="3" fill="#C8102E" fill-opacity="0.7"/>
+
+  <rect x="0" y="258" width="600" height="22" fill="#1A1A1A" fill-opacity="0.03"/>
+  <text x="300" y="273" text-anchor="middle"
+        font-family="'JetBrains Mono', monospace" font-size="9"
+        fill="#1A1A1A" fill-opacity="0.25" letter-spacing="2">THE FORECAST &#183; WEEKLY PDF SNIPPET</text>
+</svg>

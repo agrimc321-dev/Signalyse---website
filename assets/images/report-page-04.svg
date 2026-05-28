@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1131" width="800" height="1131">
+  <!-- EDIT ME: Replace this placeholder with a real report page export -->
+  <rect width="800" height="1131" fill="#FAF7F0"/>
+  <rect width="800" height="56" fill="#F2EEE2"/>
+  <line x1="0" y1="56" x2="800" y2="56" stroke="#1A1A1A" stroke-width="0.5" opacity="0.15"/>
+  <text x="40" y="34" font-family="Georgia,serif" font-size="9" fill="#8A8A82" letter-spacing="2">NORTHWIND ANALYTICS · CONFIDENTIAL</text>
+  <text x="760" y="34" font-family="Georgia,serif" font-size="9" fill="#8A8A82" text-anchor="end" letter-spacing="2">PAGE 04</text>
+  <text x="40" y="105" font-family="Georgia,serif" font-size="9" fill="#C8102E" letter-spacing="3">§ 03 · STAFFING EFFICIENCY</text>
+  <text x="40" y="145" font-family="Georgia,serif" font-size="26" fill="#1A1A1A">Revenue per staff-hour</text>
+  <rect x="40" y="157" width="28" height="1" fill="#C8102E"/>
+  <rect x="40" y="177" width="500" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40" y="194" width="460" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <!-- heatmap-style grid (hours x days) -->
+  <rect x="40" y="230" width="720" height="260" fill="none" stroke="#1A1A1A" stroke-width="0.5" opacity="0.18"/>
+  <!-- row/col grid -->
+  <line x1="40"  y1="265" x2="760" y2="265" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <line x1="40"  y1="300" x2="760" y2="300" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <line x1="40"  y1="335" x2="760" y2="335" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <line x1="40"  y1="370" x2="760" y2="370" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <line x1="40"  y1="405" x2="760" y2="405" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <line x1="40"  y1="440" x2="760" y2="440" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <!-- heat cells — varying opacity to suggest data -->
+  <rect x="142" y="231" width="100" height="34" fill="#C8102E" opacity="0.18"/>
+  <rect x="244" y="231" width="100" height="34" fill="#C8102E" opacity="0.35"/>
+  <rect x="346" y="231" width="100" height="34" fill="#C8102E" opacity="0.55"/>
+  <rect x="448" y="231" width="100" height="34" fill="#C8102E" opacity="0.38"/>
+  <rect x="550" y="231" width="100" height="34" fill="#C8102E" opacity="0.20"/>
+  <rect x="142" y="266" width="100" height="34" fill="#C8102E" opacity="0.08"/>
+  <rect x="244" y="266" width="100" height="34" fill="#C8102E" opacity="0.15"/>
+  <rect x="346" y="266" width="100" height="34" fill="#C8102E" opacity="0.60"/>
+  <rect x="448" y="266" width="100" height="34" fill="#C8102E" opacity="0.45"/>
+  <rect x="550" y="266" width="100" height="34" fill="#C8102E" opacity="0.25"/>
+  <rect x="142" y="406" width="100" height="34" fill="#1A1A1A" opacity="0.30"/>
+  <rect x="244" y="406" width="100" height="34" fill="#1A1A1A" opacity="0.22"/>
+  <rect x="142" y="441" width="100" height="34" fill="#1A1A1A" opacity="0.18"/>
+  <text x="400" y="516" font-family="Georgia,serif" font-size="9" fill="#8A8A82" text-anchor="middle" letter-spacing="2">HOUR OF DAY →</text>
+  <!-- findings -->
+  <text x="40" y="565" font-family="Georgia,serif" font-size="9" fill="#C8102E" letter-spacing="2">KEY WINDOWS</text>
+  <rect x="40" y="575" width="340" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40" y="592" width="300" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <!-- redacted table -->
+  <rect x="40"  y="640" width="720" height="14" fill="#1A1A1A" opacity="0.75" rx="0"/>
+  <rect x="40"  y="665" width="720" height="9"  fill="#1A1A1A" opacity="0.08" rx="2"/>
+  <rect x="40"  y="682" width="720" height="9"  fill="#1A1A1A" opacity="0.06" rx="2"/>
+  <rect x="40"  y="699" width="280" height="14" fill="#1A1A1A" opacity="0.75" rx="0"/>
+  <rect x="340" y="699" width="420" height="14" fill="#1A1A1A" opacity="0.08" rx="0"/>
+  <!-- stat -->
+  <text x="40" y="780" font-family="Georgia,serif" font-size="40" fill="#C8102E" opacity="0.35">£8,200</text>
+  <rect x="40" y="796" width="160" height="8" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <text x="400" y="880" font-family="Georgia,serif" font-size="16" fill="#1A1A1A" opacity="0.18" text-anchor="middle" letter-spacing="5">REPORT · PAGE 04</text>
+  <line x1="40" y1="1090" x2="760" y2="1090" stroke="#1A1A1A" stroke-width="0.5" opacity="0.10"/>
+  <text x="40"  y="1110" font-family="Georgia,serif" font-size="8" fill="#8A8A82" letter-spacing="2">NW · S-001 · TIER 1 · ANONYMISED</text>
+  <text x="760" y="1110" font-family="Georgia,serif" font-size="8" fill="#8A8A82" text-anchor="end" letter-spacing="2">© 2026 NORTHWIND ANALYTICS</text>
+</svg>

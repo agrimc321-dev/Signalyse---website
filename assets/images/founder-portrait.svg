@@ -1,0 +1,34 @@
+<!-- EDIT ME: Replace this placeholder with a real portrait photo of Alex Morgan.
+     Recommended: 800×800px minimum, square crop, well-lit, neutral background.
+     Save as assets/images/alex-morgan.jpg and update the <img> src in about.html:
+       <img src="assets/images/alex-morgan.jpg"
+            alt="Alex Morgan, founder of Signalyse"
+            class="portrait-placeholder"
+            width="480" height="480"> -->
+<svg width="480" height="480" viewBox="0 0 480 480"
+     fill="none" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Founder portrait placeholder — replace with photo of Alex Morgan">
+
+  <!-- Background -->
+  <rect width="480" height="480" fill="#F2EEE2"/>
+  <rect x="0.5" y="0.5" width="479" height="479" stroke="#1A1A1A" stroke-opacity="0.12"/>
+
+  <!-- Silhouette head -->
+  <circle cx="240" cy="175" r="70" fill="#1A1A1A" fill-opacity="0.07"/>
+
+  <!-- Silhouette shoulders -->
+  <path d="M100 420 C100 330 170 280 240 280 C310 280 380 330 380 420"
+        fill="#1A1A1A" fill-opacity="0.05"/>
+
+  <!-- Centre label -->
+  <text x="240" y="390" text-anchor="middle"
+        font-family="'JetBrains Mono', monospace" font-size="11"
+        fill="#1A1A1A" fill-opacity="0.22" letter-spacing="2">
+    [PORTRAIT]
+  </text>
+  <text x="240" y="412" text-anchor="middle"
+        font-family="'JetBrains Mono', monospace" font-size="9"
+        fill="#C8102E" fill-opacity="0.40" letter-spacing="1">
+    EDIT ME: REPLACE WITH REAL PHOTO
+  </text>
+</svg>

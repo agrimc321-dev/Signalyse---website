@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1131" width="800" height="1131">
+  <!-- EDIT ME: Replace this placeholder with a real report page export -->
+  <rect width="800" height="1131" fill="#FAF7F0"/>
+  <!-- header band -->
+  <rect width="800" height="56" fill="#F2EEE2"/>
+  <line x1="0" y1="56" x2="800" y2="56" stroke="#1A1A1A" stroke-width="0.5" opacity="0.15"/>
+  <text x="40" y="34" font-family="Georgia,serif" font-size="9" fill="#8A8A82" letter-spacing="2">NORTHWIND ANALYTICS · CONFIDENTIAL</text>
+  <text x="760" y="34" font-family="Georgia,serif" font-size="9" fill="#8A8A82" text-anchor="end" letter-spacing="2">PAGE 01</text>
+  <!-- section label -->
+  <text x="40" y="105" font-family="Georgia,serif" font-size="9" fill="#C8102E" letter-spacing="3">§ 00 · OVERVIEW</text>
+  <!-- title -->
+  <text x="40" y="158" font-family="Georgia,serif" font-size="32" fill="#1A1A1A">A year on the wire</text>
+  <rect x="40" y="170" width="28" height="1" fill="#C8102E"/>
+  <!-- lead -->
+  <rect x="40" y="190" width="460" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40" y="207" width="420" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40" y="224" width="445" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <!-- large chart area -->
+  <rect x="40" y="265" width="720" height="310" fill="none" stroke="#1A1A1A" stroke-width="0.5" opacity="0.18"/>
+  <line x1="40" y1="330" x2="760" y2="330" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <line x1="40" y1="395" x2="760" y2="395" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <line x1="40" y1="460" x2="760" y2="460" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <line x1="40" y1="525" x2="760" y2="525" stroke="#1A1A1A" stroke-width="0.3" opacity="0.10"/>
+  <text x="400" y="430" font-family="Georgia,serif" font-size="11" fill="#1A1A1A" opacity="0.20" text-anchor="middle" letter-spacing="4">CHART AREA</text>
+  <!-- two-col body -->
+  <rect x="40"  y="615" width="330" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40"  y="632" width="300" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40"  y="649" width="315" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="40"  y="666" width="280" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="420" y="615" width="340" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="420" y="632" width="310" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="420" y="649" width="330" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <rect x="420" y="666" width="295" height="9" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <!-- stat callout -->
+  <text x="40" y="750" font-family="Georgia,serif" font-size="48" fill="#C8102E" opacity="0.35">+8%</text>
+  <rect x="40" y="768" width="120" height="8" fill="#1A1A1A" opacity="0.10" rx="2"/>
+  <!-- page label -->
+  <text x="400" y="880" font-family="Georgia,serif" font-size="16" fill="#1A1A1A" opacity="0.18" text-anchor="middle" letter-spacing="5">REPORT · PAGE 01</text>
+  <!-- footer -->
+  <line x1="40" y1="1090" x2="760" y2="1090" stroke="#1A1A1A" stroke-width="0.5" opacity="0.10"/>
+  <text x="40"  y="1110" font-family="Georgia,serif" font-size="8" fill="#8A8A82" letter-spacing="2">NW · S-001 · TIER 1 · ANONYMISED</text>
+  <text x="760" y="1110" font-family="Georgia,serif" font-size="8" fill="#8A8A82" text-anchor="end" letter-spacing="2">© 2026 NORTHWIND ANALYTICS</text>
+</svg>
