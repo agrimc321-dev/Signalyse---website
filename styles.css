@@ -519,6 +519,16 @@ hr.rule-thin {
 }
 .tier-preview-card h3 { margin-bottom: 0; }
 
+.tier-hover-hint {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  display: block;
+  margin-top: 6px;
+}
+
 .tier-expand {
   max-height: 0;
   overflow: hidden;
@@ -742,7 +752,7 @@ hr.tier-divider {
 
 .portrait-placeholder {
   width: 100%;
-  max-width: 400px;
+  max-width: 480px;
   border: 0.5px solid var(--rule);
 }
 
@@ -1047,6 +1057,7 @@ hr.tier-divider {
 @media (max-width: 767px) {
   .tier-preview-grid { grid-template-columns: 1fr; gap: 12px; }
   .tier-expand { max-height: none; opacity: 1; overflow: visible; transition: none; }
+  .tier-hover-hint { display: none; }
 }
 
 /* ≥768px — tablet */
