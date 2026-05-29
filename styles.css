@@ -441,7 +441,7 @@ hr.rule-thin {
 .hero-decoration {
   display: none;
   color: var(--ink);
-  opacity: 0.08;
+  opacity: 0.25;
   width: 100%;
   max-width: 460px;
   flex-shrink: 0;

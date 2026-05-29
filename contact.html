@@ -39,7 +39,7 @@
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <a href="contact.html" class="btn btn-primary nav-cta">Book a conversation</a>
+    <a href="https://cal.com/signalyse/20min" class="btn btn-primary nav-cta" target="_blank" rel="noopener noreferrer">Book a conversation</a>
     <button id="menu-toggle" class="nav-hamburger"
             aria-expanded="false" aria-controls="mobile-menu"
             aria-label="Open navigation menu">
@@ -66,7 +66,7 @@
     <a href="about.html">About</a>
     <a href="contact.html">Contact</a>
   </nav>
-  <a href="contact.html" class="btn btn-primary mobile-menu-cta">Book a conversation</a>
+  <a href="https://cal.com/signalyse/20min" class="btn btn-primary mobile-menu-cta" target="_blank" rel="noopener noreferrer">Book a conversation</a>
 </div>
 
 
@@ -85,71 +85,59 @@
 
 
 <!-- ============================================================
-     &sect; 01 &middot; HOW TO REACH US
-     ============================================================
-     NOTE: Phone leads. The audience runs businesses where picking
-     up the phone is faster than filling a form.
+     &sect; 01 &middot; GET IN TOUCH
      ============================================================ -->
-<section aria-labelledby="methods-heading">
+<section aria-labelledby="form-heading">
   <div class="container">
-    <span class="section-label fade-in">&sect; 01 &nbsp;&middot;&nbsp; HOW TO REACH US</span>
-    <h2 id="methods-heading" class="sr-only">Contact methods</h2>
+    <span class="section-label fade-in">&sect; 01 &nbsp;&middot;&nbsp; GET IN TOUCH</span>
+    <h2 id="form-heading" class="fade-in">Leave a message.</h2>
+    <p class="lead fade-in">I&rsquo;ll get back to you using your preferred contact method &mdash; email or phone &mdash; and we&rsquo;ll schedule a conversation.</p>
 
-    <div class="contact-methods fade-in">
+    <form id="contact-form" class="contact-form fade-in" novalidate aria-label="Contact form" style="margin-top:2.5rem">
 
-      <!-- Phone — primary method -->
-      <div class="contact-method">
-        <div class="contact-icon" aria-hidden="true">
-          <svg viewBox="0 0 32 32" width="32" height="32" fill="none">
-            <path d="M6 7C6 6.45 6.45 6 7 6h3.33c.48 0 .9.32 1.02.79l1.49 5.7c.1.4-.07.83-.43 1.06l-1.9 1.2C12 17 15 20.5 17.75 21.5l1.2-1.91c.23-.36.66-.53 1.07-.43l5.7 1.49c.47.12.78.54.78 1.02V25c0 .55-.45 1-1 1H22c-8.84 0-16-7.16-16-16V7z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <span class="contact-method-label">By phone</span>
-        <!-- EDIT ME: Replace placeholder with real phone number -->
-        <span class="contact-method-detail">
-          <a href="tel:+440000000000">+44 [PLACEHOLDER NUMBER]</a>
-        </span>
-        <p class="contact-method-context">Mon&ndash;Fri, 9&ndash;6</p>
+      <div class="form-group">
+        <label for="form-name">Name</label>
+        <input type="text" id="form-name" name="name"
+               autocomplete="name"
+               placeholder="Your name">
       </div>
 
-      <!-- Email -->
-      <div class="contact-method">
-        <div class="contact-icon" aria-hidden="true">
-          <svg viewBox="0 0 32 32" width="32" height="32" fill="none">
-            <rect x="4" y="8" width="24" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
-            <path d="M4 10l12 9 12-9" stroke="currentColor" stroke-width="1.5"/>
-          </svg>
-        </div>
-        <span class="contact-method-label">By email</span>
-        <span class="contact-method-detail">
-          <a href="mailto:alex@signalyse.co.uk">alex@signalyse.co.uk</a>
-        </span>
-        <p class="contact-method-context">Reply within one working day</p>
+      <div class="form-group">
+        <label for="form-email">
+          Email
+          <span class="sr-only">(required)</span>
+          <span aria-hidden="true"> *</span>
+        </label>
+        <input type="email" id="form-email" name="email"
+               autocomplete="email"
+               required aria-required="true"
+               placeholder="your@email.com">
       </div>
 
-      <!-- Calendar — tertiary method -->
-      <div class="contact-method">
-        <div class="contact-icon" aria-hidden="true">
-          <svg viewBox="0 0 32 32" width="32" height="32" fill="none">
-            <rect x="4" y="6" width="24" height="22" rx="1" stroke="currentColor" stroke-width="1.5"/>
-            <line x1="4" y1="14" x2="28" y2="14" stroke="currentColor" stroke-width="1.5"/>
-            <line x1="11" y1="4" x2="11" y2="10" stroke="currentColor" stroke-width="1.5"/>
-            <line x1="21" y1="4" x2="21" y2="10" stroke="currentColor" stroke-width="1.5"/>
-          </svg>
-        </div>
-        <span class="contact-method-label">By calendar</span>
-        <span class="contact-method-detail">
-          <!-- EDIT ME: Replace data-cal-trigger with your actual Cal.com booking page URL.
-               The button opens the calendar modal. Alternatively, link directly:
-               <a href="https://cal.com/YOUR_USERNAME/intro">Book via Cal.com</a> -->
-          <button class="btn btn-secondary" data-cal-trigger aria-haspopup="dialog">
-            Open the booking page &rarr;
-          </button>
-        </span>
-        <p class="contact-method-context">20-min slots, this week and next</p>
+      <div class="form-group">
+        <label for="form-phone">Phone number <span style="font-size:0.85em;opacity:0.6">(optional)</span></label>
+        <input type="tel" id="form-phone" name="phone"
+               autocomplete="tel"
+               placeholder="+44 ...">
       </div>
 
+      <div class="form-group">
+        <label for="form-message">What&rsquo;s on your mind?</label>
+        <textarea id="form-message" name="message" rows="4"
+                  placeholder="What would you want to look at first?"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Send</button>
+
+    </form>
+
+    <p class="form-note fade-in"><em>I read everything personally.</em></p>
+
+    <div class="fade-in" style="margin-top:48px;padding-top:40px;border-top:0.5px solid var(--rule)">
+      <p style="margin-bottom:16px">Or book directly into the calendar &mdash; 20 minutes, no data required.</p>
+      <a href="https://cal.com/signalyse/20min" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Book a conversation &rarr;</a>
     </div>
+
   </div>
 </section>
 
@@ -263,51 +251,6 @@
 </section>
 
 
-<!-- ============================================================
-     &sect; 04 &middot; OR DROP A MESSAGE
-     ============================================================ -->
-<section style="background:var(--bg-secondary)" aria-labelledby="form-heading">
-  <div class="container">
-    <span class="section-label fade-in">&sect; 04 &nbsp;&middot;&nbsp; OR DROP A MESSAGE</span>
-    <h2 id="form-heading" class="fade-in">Prefer to type?</h2>
-    <p class="lead fade-in">Leave a note and I&rsquo;ll get back to you within one working day.</p>
-
-    <!-- EDIT ME: swap the mailto fallback in main.js for a Formspree/Web3Forms endpoint.
-         In main.js, find the comment "EDIT ME: Replace the window.location.href line" -->
-    <form id="contact-form" class="contact-form fade-in" novalidate aria-label="Contact form">
-
-      <div class="form-group">
-        <label for="form-name">Name</label>
-        <input type="text" id="form-name" name="name"
-               autocomplete="name"
-               placeholder="Your name">
-      </div>
-
-      <div class="form-group">
-        <label for="form-email">
-          Email
-          <span class="sr-only">(required)</span>
-          <span aria-hidden="true"> *</span>
-        </label>
-        <input type="email" id="form-email" name="email"
-               autocomplete="email"
-               required aria-required="true"
-               placeholder="your@email.com">
-      </div>
-
-      <div class="form-group">
-        <label for="form-message">What&rsquo;s on your mind?</label>
-        <textarea id="form-message" name="message" rows="4"
-                  placeholder="What would you want to look at first?"></textarea>
-      </div>
-
-      <button type="submit" class="btn btn-primary">Send</button>
-
-    </form>
-
-    <p class="form-note fade-in"><em>I read everything personally.</em></p>
-  </div>
-</section>
 
 </main>
 
