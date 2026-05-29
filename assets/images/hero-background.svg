@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Forecast chart with one peak highlighted">
+  <title>Signalyse hero artwork</title>
+
+  <defs>
+    <radialGradient id="peakHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C8102E" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#C8102E" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#C8102E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="900" fill="#F2EEE2"/>
+
+  <g opacity="0.3" stroke="#5A5A55" stroke-width="0.5" fill="none">
+    <line x1="50" y1="180" x2="1000" y2="180"/>
+    <line x1="50" y1="330" x2="1000" y2="330"/>
+    <line x1="50" y1="480" x2="1000" y2="480"/>
+    <line x1="50" y1="630" x2="1000" y2="630"/>
+    <line x1="200" y1="120" x2="200" y2="780"/>
+    <line x1="350" y1="120" x2="350" y2="780"/>
+    <line x1="500" y1="120" x2="500" y2="780"/>
+    <line x1="650" y1="120" x2="650" y2="780"/>
+    <line x1="800" y1="120" x2="800" y2="780"/>
+    <line x1="950" y1="120" x2="950" y2="780"/>
+  </g>
+
+  <ellipse cx="620" cy="500" rx="280" ry="240" fill="url(#peakHalo)"/>
+
+  <g opacity="0.6">
+    <rect x="120" y="600" width="40" height="120" fill="#1A1A1A"/>
+    <rect x="200" y="580" width="40" height="140" fill="#1A1A1A"/>
+    <rect x="280" y="560" width="40" height="160" fill="#1A1A1A"/>
+    <rect x="360" y="540" width="40" height="180" fill="#1A1A1A"/>
+    <rect x="440" y="520" width="40" height="200" fill="#1A1A1A"/>
+    <rect x="520" y="500" width="40" height="220" fill="#1A1A1A"/>
+  </g>
+
+  <rect x="600" y="340" width="40" height="380" fill="#C8102E"/>
+
+  <g opacity="0.6">
+    <rect x="680" y="470" width="40" height="250" fill="#1A1A1A"/>
+    <rect x="760" y="510" width="40" height="210" fill="#1A1A1A"/>
+    <rect x="840" y="540" width="40" height="180" fill="#1A1A1A"/>
+    <rect x="920" y="570" width="40" height="150" fill="#1A1A1A"/>
+  </g>
+
+  <line x1="620" y1="340" x2="620" y2="780" stroke="#C8102E" stroke-width="0.75" stroke-dasharray="3 5" opacity="0.55"/>
+
+  <path d="M 140,610 Q 220,595 280,570 T 440,530 T 620,340 T 760,520 T 920,580"
+        stroke="#C8102E" stroke-width="2" fill="none" opacity="0.85"/>
+
+  <circle cx="620" cy="340" r="6" fill="#C8102E"/>
+  <circle cx="620" cy="340" r="14" fill="none" stroke="#C8102E" stroke-width="1.2" opacity="0.5"/>
+  <circle cx="620" cy="340" r="26" fill="none" stroke="#C8102E" stroke-width="0.6" opacity="0.25"/>
+</svg>
