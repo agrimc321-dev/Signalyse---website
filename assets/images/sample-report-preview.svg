@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 420" role="img" aria-labelledby="sr-title sr-desc" preserveAspectRatio="xMidYMid meet">
+  <title id="sr-title">Sample Signalyse report preview</title>
+  <desc id="sr-desc">Two-page spread showing a Tier 1 written report on the left with a finding about temperature thresholds and a covers-versus-temperature chart, and a Tier 3 weekly forecast on the right with a forecast-versus-actual covers chart and a seven-day outlook table.</desc>
+
+  <defs>
+    <!-- Soft drop shadow so the pages lift off the cream section background -->
+    <filter id="paper-shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="4" result="off"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Blur for the prose blocks so it reads as text without being legible -->
+    <filter id="prose-blur" x="-2%" y="-2%" width="104%" height="104%">
+      <feGaussianBlur stdDeviation="1.1"/>
+    </filter>
+
+    <!-- Synoptic-chart watermark behind the right-hand page header -->
+    <symbol id="synoptic" viewBox="0 0 200 200">
+      <g fill="none" stroke="#1A1A1A" stroke-width="0.5" opacity="0.06">
+        <circle cx="100" cy="100" r="92"/>
+        <circle cx="100" cy="100" r="70"/>
+        <circle cx="100" cy="100" r="48"/>
+        <circle cx="100" cy="100" r="26"/>
+        <line x1="100" y1="4" x2="100" y2="196"/>
+        <line x1="4" y1="100" x2="196" y2="100"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <!-- ================================================================
+       Section background — matches the cream of the home page
+       ================================================================ -->
+  <rect width="1140" height="420" fill="#FAF7F0"/>
+
+  <!-- ================================================================
+       LEFT PAGE — Tier 1 "The Read" sample
+       A4-ish portrait, sitting at x=40
+       ================================================================ -->
+  <g filter="url(#paper-shadow)">
+    <rect x="40" y="24" width="510" height="372" fill="#FAF7F0" stroke="rgba(26,26,26,0.12)" stroke-width="0.5"/>
+  </g>
+
+  <!-- Page header strip -->
+  <g font-family="'JetBrains Mono', monospace" font-size="8" letter-spacing="1" fill="#8A8A82">
+    <text x="60" y="50">SIGNALYSE</text>
+    <text x="530" y="50" text-anchor="end">NW-S-001 · CONFIDENTIAL</text>
+  </g>
+  <line x1="60" y1="58" x2="530" y2="58" stroke="rgba(26,26,26,0.12)" stroke-width="0.5"/>
+
+  <!-- Section label + headline (Playfair Display, mirroring the site) -->
+  <text x="60" y="82" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1.2" fill="#C8102E">§ 03 · WEATHER</text>
+  <text x="60" y="116" font-family="'Playfair Display', Georgia, serif" font-size="24" fill="#1A1A1A">The thermometer tells you</text>
+  <text x="60" y="142" font-family="'Playfair Display', Georgia, serif" font-size="24" fill="#1A1A1A">when the garden fills up.</text>
+
+  <!-- Standfirst (italic, slightly faded — clearly readable, the hook) -->
+  <text x="60" y="170" font-family="'Source Serif 4', Georgia, serif" font-size="11" font-style="italic" fill="#5A5A55">A sunny day lifts trade — every landlord knows that.</text>
+  <text x="60" y="184" font-family="'Source Serif 4', Georgia, serif" font-size="11" font-style="italic" fill="#5A5A55">Less obvious is the exact point at which it does. For this</text>
+  <text x="60" y="198" font-family="'Source Serif 4', Georgia, serif" font-size="11" font-style="italic" fill="#5A5A55">pub, 18°C is the line. Below it, the beer garden stays half-empty.</text>
+
+  <!-- ===== LEFT-PAGE CHART: revenue vs temperature, with 18°C threshold ===== -->
+  <g transform="translate(60, 220)">
+    <!-- Caption -->
+    <text x="0" y="-4" font-family="'JetBrains Mono', monospace" font-size="8" letter-spacing="1" fill="#8A8A82">FIG. 03.1 · DAILY COVERS VS TEMPERATURE</text>
+
+    <!-- Plot frame -->
+    <rect x="0" y="4" width="285" height="120" fill="none" stroke="rgba(26,26,26,0.12)" stroke-width="0.5"/>
+
+    <!-- Y-axis ticks: covers per day -->
+    <g font-family="'JetBrains Mono', monospace" font-size="7" fill="#8A8A82" text-anchor="end">
+      <text x="-4" y="14">320</text>
+      <text x="-4" y="46">240</text>
+      <text x="-4" y="78">160</text>
+      <text x="-4" y="110">80</text>
+    </g>
+    <!-- X-axis ticks: temperature -->
+    <g font-family="'JetBrains Mono', monospace" font-size="7" fill="#8A8A82" text-anchor="middle">
+      <text x="0" y="138">5°</text>
+      <text x="71" y="138">10°</text>
+      <text x="142" y="138">15°</text>
+      <text x="213" y="138">20°</text>
+      <text x="285" y="138">25°</text>
+    </g>
+
+    <!-- Gridlines -->
+    <g stroke="rgba(26,26,26,0.05)" stroke-width="0.5">
+      <line x1="0" y1="36" x2="285" y2="36"/>
+      <line x1="0" y1="68" x2="285" y2="68"/>
+      <line x1="0" y1="100" x2="285" y2="100"/>
+      <line x1="71" y1="4" x2="71" y2="124"/>
+      <line x1="142" y1="4" x2="142" y2="124"/>
+      <line x1="213" y1="4" x2="213" y2="124"/>
+    </g>
+
+    <!-- 18°C threshold marker (vertical dashed red, with label) -->
+    <line x1="184" y1="4" x2="184" y2="124" stroke="#C8102E" stroke-width="0.7" stroke-dasharray="2 2" opacity="0.6"/>
+    <text x="187" y="14" font-family="'JetBrains Mono', monospace" font-size="7" letter-spacing="0.5" fill="#C8102E">18°C</text>
+
+    <!-- Scatter points: low&flat for cold temps, sharp lift above 18°C threshold -->
+    <g fill="#1A1A1A" opacity="0.55">
+      <!-- cold side: clustered low -->
+      <circle cx="8"   cy="98"  r="1.6"/>
+      <circle cx="16"  cy="94"  r="1.6"/>
+      <circle cx="24"  cy="100" r="1.6"/>
+      <circle cx="32"  cy="92"  r="1.6"/>
+      <circle cx="40"  cy="96"  r="1.6"/>
+      <circle cx="50"  cy="90"  r="1.6"/>
+      <circle cx="58"  cy="94"  r="1.6"/>
+      <circle cx="66"  cy="88"  r="1.6"/>
+      <circle cx="74"  cy="92"  r="1.6"/>
+      <circle cx="82"  cy="86"  r="1.6"/>
+      <circle cx="92"  cy="88"  r="1.6"/>
+      <circle cx="100" cy="82"  r="1.6"/>
+      <circle cx="110" cy="86"  r="1.6"/>
+      <circle cx="118" cy="80"  r="1.6"/>
+      <circle cx="128" cy="78"  r="1.6"/>
+      <circle cx="138" cy="82"  r="1.6"/>
+      <circle cx="148" cy="74"  r="1.6"/>
+      <circle cx="158" cy="76"  r="1.6"/>
+      <circle cx="168" cy="68"  r="1.6"/>
+      <circle cx="178" cy="62"  r="1.6"/>
+      <!-- threshold + warm side: rapid lift -->
+      <circle cx="186" cy="50"  r="1.6"/>
+      <circle cx="194" cy="44"  r="1.6"/>
+      <circle cx="202" cy="38"  r="1.6"/>
+      <circle cx="210" cy="32"  r="1.6"/>
+      <circle cx="220" cy="28"  r="1.6"/>
+      <circle cx="230" cy="24"  r="1.6"/>
+      <circle cx="240" cy="22"  r="1.6"/>
+      <circle cx="250" cy="18"  r="1.6"/>
+      <circle cx="260" cy="20"  r="1.6"/>
+      <circle cx="270" cy="16"  r="1.6"/>
+      <!-- a few off-trend stragglers -->
+      <circle cx="60"  cy="80"  r="1.6"/>
+      <circle cx="120" cy="92"  r="1.6"/>
+      <circle cx="170" cy="84"  r="1.6"/>
+      <circle cx="200" cy="58"  r="1.6"/>
+      <circle cx="240" cy="40"  r="1.6"/>
+    </g>
+
+    <!-- Fitted curve: flat-ish then bends sharply upward at threshold (sigmoid-style) -->
+    <path d="M 4,96 Q 90,90 160,76 Q 184,60 220,30 T 280,16" fill="none" stroke="#C8102E" stroke-width="1.4"/>
+  </g>
+
+  <!-- ===== LEFT-PAGE BLURRED PROSE COLUMN (to the right of the chart) ===== -->
+  <g transform="translate(360, 220)" filter="url(#prose-blur)">
+    <g fill="#1A1A1A">
+      <rect x="0" y="0"  width="170" height="3.5" rx="0.5"/>
+      <rect x="0" y="9"  width="158" height="3.5" rx="0.5"/>
+      <rect x="0" y="18" width="170" height="3.5" rx="0.5"/>
+      <rect x="0" y="27" width="142" height="3.5" rx="0.5"/>
+      <rect x="0" y="36" width="170" height="3.5" rx="0.5"/>
+      <rect x="0" y="45" width="150" height="3.5" rx="0.5"/>
+      <rect x="0" y="54" width="170" height="3.5" rx="0.5"/>
+      <rect x="0" y="63" width="120" height="3.5" rx="0.5"/>
+    </g>
+  </g>
+
+  <!-- ===== LEFT-PAGE PULL-OUT FINDING (clear, sharp, FT-red rule) ===== -->
+  <g transform="translate(360, 308)">
+    <line x1="0" y1="0" x2="24" y2="0" stroke="#C8102E" stroke-width="1"/>
+    <text x="0" y="14" font-family="'JetBrains Mono', monospace" font-size="8" letter-spacing="1.2" fill="#C8102E">FINDING 03</text>
+    <text x="0" y="32" font-family="'Playfair Display', Georgia, serif" font-size="14" fill="#1A1A1A">A warm Saturday is worth</text>
+    <text x="0" y="48" font-family="'Playfair Display', Georgia, serif" font-size="14" fill="#1A1A1A">2.4× a cool one. Plan rotas.</text>
+  </g>
+
+  <!-- Page number -->
+  <text x="530" y="384" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8" letter-spacing="1" fill="#8A8A82">04</text>
+
+
+  <!-- ================================================================
+       RIGHT PAGE — Tier 3 "The Forecast" sample
+       ================================================================ -->
+  <g filter="url(#paper-shadow)">
+    <rect x="590" y="24" width="510" height="372" fill="#FAF7F0" stroke="rgba(26,26,26,0.12)" stroke-width="0.5"/>
+  </g>
+
+  <!-- Synoptic-chart watermark in the corner -->
+  <use href="#synoptic" x="940" y="34" width="150" height="150"/>
+
+  <!-- Page header strip -->
+  <g font-family="'JetBrains Mono', monospace" font-size="8" letter-spacing="1" fill="#8A8A82">
+    <text x="610" y="50">SIGNALYSE · TIER 3 FORECAST</text>
+    <text x="1080" y="50" text-anchor="end">WK 22 · 2026</text>
+  </g>
+  <line x1="610" y1="58" x2="1080" y2="58" stroke="rgba(26,26,26,0.12)" stroke-width="0.5"/>
+
+  <!-- Section label + headline -->
+  <text x="610" y="82" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1.2" fill="#C8102E">§ 02 · THE WEEK AHEAD</text>
+  <text x="610" y="116" font-family="'Playfair Display', Georgia, serif" font-size="24" fill="#1A1A1A">Covers forecast vs reality,</text>
+  <text x="610" y="142" font-family="'Playfair Display', Georgia, serif" font-size="24" fill="#1A1A1A">tracking the curve.</text>
+
+  <!-- Three small stat blocks (KPI strip — same look as the Tier 3 sample) -->
+  <g transform="translate(610, 162)">
+    <!-- block 1 -->
+    <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="7" letter-spacing="1" fill="#8A8A82">AVG ABS ERROR</text>
+    <text x="0" y="20" font-family="'Playfair Display', Georgia, serif" font-size="20" fill="#1A1A1A">3.99<tspan font-size="11" fill="#5A5A55">%</tspan></text>
+    <!-- block 2 -->
+    <text x="110" y="0" font-family="'JetBrains Mono', monospace" font-size="7" letter-spacing="1" fill="#8A8A82">WASTAGE CUT</text>
+    <text x="110" y="20" font-family="'Playfair Display', Georgia, serif" font-size="20" fill="#1A1A1A">−18<tspan font-size="11" fill="#5A5A55">%</tspan></text>
+    <!-- block 3 -->
+    <text x="220" y="0" font-family="'JetBrains Mono', monospace" font-size="7" letter-spacing="1" fill="#8A8A82">FORECAST R²</text>
+    <text x="220" y="20" font-family="'Playfair Display', Georgia, serif" font-size="20" fill="#1A1A1A">0.92</text>
+  </g>
+
+  <!-- ===== RIGHT-PAGE CHART: ANN forecast (red) overlaid on real demand (black) ===== -->
+  <g transform="translate(610, 220)">
+    <text x="0" y="-4" font-family="'JetBrains Mono', monospace" font-size="8" letter-spacing="1" fill="#8A8A82">FIG. 02.1 · FORECAST VS ACTUAL COVERS</text>
+
+    <!-- Plot frame -->
+    <rect x="0" y="4" width="305" height="120" fill="none" stroke="rgba(26,26,26,0.12)" stroke-width="0.5"/>
+
+    <!-- Day-of-week ticks -->
+    <g font-family="'JetBrains Mono', monospace" font-size="7" fill="#8A8A82" text-anchor="middle">
+      <text x="20"  y="138">MON</text>
+      <text x="68"  y="138">TUE</text>
+      <text x="116" y="138">WED</text>
+      <text x="164" y="138">THU</text>
+      <text x="212" y="138">FRI</text>
+      <text x="260" y="138">SAT</text>
+      <text x="298" y="138">SUN</text>
+    </g>
+
+    <!-- Faint vertical day separators -->
+    <g stroke="rgba(26,26,26,0.05)" stroke-width="0.5">
+      <line x1="44"  y1="4" x2="44"  y2="124"/>
+      <line x1="92"  y1="4" x2="92"  y2="124"/>
+      <line x1="140" y1="4" x2="140" y2="124"/>
+      <line x1="188" y1="4" x2="188" y2="124"/>
+      <line x1="236" y1="4" x2="236" y2="124"/>
+      <line x1="284" y1="4" x2="284" y2="124"/>
+    </g>
+
+    <!-- Real demand — black line, wobbly weekly shape -->
+    <path d="M 4,70 L 20,68 L 32,82 L 44,76 L 56,62 L 68,58 L 80,72 L 92,52 L 104,48 L 116,60 L 128,40 L 140,32 L 152,42 L 164,28 L 176,24 L 188,38 L 200,46 L 212,30 L 224,22 L 236,28 L 248,18 L 260,14 L 272,26 L 284,40 L 298,54"
+          fill="none" stroke="#1A1A1A" stroke-width="1.2"/>
+
+    <!-- ANN forecast — FT red, dashed, hugging the real line with small offsets -->
+    <path d="M 4,72 L 20,66 L 32,80 L 44,74 L 56,64 L 68,60 L 80,70 L 92,54 L 104,50 L 116,58 L 128,42 L 140,34 L 152,40 L 164,30 L 176,26 L 188,36 L 200,44 L 212,32 L 224,24 L 236,26 L 248,20 L 260,16 L 272,24 L 284,38 L 298,52"
+          fill="none" stroke="#C8102E" stroke-width="1.2" stroke-dasharray="3 2"/>
+
+    <!-- Tiny inline legend, top-right inside the plot area -->
+    <g font-family="'JetBrains Mono', monospace" font-size="7" letter-spacing="0.5" fill="#5A5A55">
+      <line x1="196" y1="20" x2="206" y2="20" stroke="#1A1A1A" stroke-width="1.2"/>
+      <text x="210" y="22">ACTUAL</text>
+      <line x1="246" y1="20" x2="256" y2="20" stroke="#C8102E" stroke-width="1.2" stroke-dasharray="3 2"/>
+      <text x="260" y="22">FORECAST</text>
+    </g>
+  </g>
+
+  <!-- ===== RIGHT-PAGE 7-DAY OUTLOOK TABLE (blurred, recognisable as tabular data) ===== -->
+  <g transform="translate(610, 380)">
+    <text x="0" y="-4" font-family="'JetBrains Mono', monospace" font-size="7" letter-spacing="1" fill="#8A8A82">DAY · FORECAST · WEATHER · NOTES</text>
+  </g>
+
+  <!-- Blurred table rows — three columns to suggest a structured outlook -->
+  <g transform="translate(610, 384)" filter="url(#prose-blur)">
+    <g fill="#1A1A1A">
+      <!-- row 1 -->
+      <rect x="0"   y="0" width="28" height="3" rx="0.5"/>
+      <rect x="42"  y="0" width="48" height="3" rx="0.5"/>
+      <rect x="104" y="0" width="38" height="3" rx="0.5"/>
+      <rect x="156" y="0" width="80" height="3" rx="0.5"/>
+      <!-- row 2 -->
+      <rect x="0"   y="8" width="28" height="3" rx="0.5"/>
+      <rect x="42"  y="8" width="52" height="3" rx="0.5"/>
+      <rect x="104" y="8" width="34" height="3" rx="0.5"/>
+      <rect x="156" y="8" width="92" height="3" rx="0.5"/>
+    </g>
+  </g>
+
+  <!-- Page number -->
+  <text x="1080" y="384" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8" letter-spacing="1" fill="#8A8A82">02</text>
+
+
+  <!-- ================================================================
+       Cross-page caption strip — anchors the two pages as one artefact
+       ================================================================ -->
+  <text x="570" y="412" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" letter-spacing="1.5" fill="#8A8A82">SAMPLE · TIER 1 ↔ TIER 3 · ANONYMISED</text>
+</svg>
