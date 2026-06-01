@@ -90,18 +90,118 @@
       <p class="hero-credential">BRISTOL UK</p>
     </div>
 
-    <!-- Decorative synoptic chart SVG — desktop only -->
+    <!-- Decorative analytics charts SVG — desktop only -->
     <svg class="hero-decoration" viewBox="0 0 480 480" aria-hidden="true" focusable="false">
-      <circle cx="240" cy="240" r="220" stroke="currentColor" stroke-width="0.5" fill="none"/>
-      <circle cx="240" cy="240" r="180" stroke="currentColor" stroke-width="0.5" fill="none"/>
-      <circle cx="240" cy="240" r="140" stroke="currentColor" stroke-width="0.5" fill="none"/>
-      <circle cx="240" cy="240" r="100" stroke="currentColor" stroke-width="0.5" fill="none"/>
-      <circle cx="240" cy="240" r="60"  stroke="currentColor" stroke-width="0.5" fill="none"/>
-      <circle cx="240" cy="240" r="20"  stroke="currentColor" stroke-width="0.5" fill="none"/>
-      <line x1="240" y1="0"   x2="240" y2="480" stroke="currentColor" stroke-width="0.5"/>
-      <line x1="0"   y1="240" x2="480" y2="240" stroke="currentColor" stroke-width="0.5"/>
-      <line x1="72"  y1="72"  x2="408" y2="408" stroke="currentColor" stroke-width="0.4" opacity="0.5"/>
-      <line x1="408" y1="72"  x2="72"  y2="408" stroke="currentColor" stroke-width="0.4" opacity="0.5"/>
+
+      <!-- ── Combined chart: Covers (bars) + Avg Spend (line) ── -->
+      <text x="48" y="18" font-family="'JetBrains Mono', monospace" font-size="8.5" letter-spacing="2" fill="currentColor" opacity="0.75">COVERS + AVG SPEND</text>
+
+      <!-- Chart legend -->
+      <rect x="302" y="9" width="8" height="8" fill="currentColor" opacity="0.55"/>
+      <text x="314" y="17" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="currentColor" opacity="0.7">COVERS</text>
+      <line x1="375" y1="13" x2="394" y2="13" stroke="#C8102E" stroke-width="1.5"/>
+      <circle cx="384" cy="13" r="2" fill="#C8102E"/>
+      <text x="397" y="17" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#C8102E" opacity="0.9">AVG £</text>
+
+      <!-- Grid lines -->
+      <line x1="48" y1="80"  x2="448" y2="80"  stroke="currentColor" stroke-width="0.4" stroke-dasharray="2,4" opacity="0.45"/>
+      <line x1="48" y1="131" x2="448" y2="131" stroke="currentColor" stroke-width="0.4" stroke-dasharray="2,4" opacity="0.45"/>
+      <line x1="48" y1="181" x2="448" y2="181" stroke="currentColor" stroke-width="0.4" stroke-dasharray="2,4" opacity="0.45"/>
+
+      <!-- Axes -->
+      <line x1="48" y1="232" x2="448" y2="232" stroke="currentColor" stroke-width="0.7"/>
+      <line x1="48" y1="26"  x2="48"  y2="233" stroke="currentColor" stroke-width="0.7"/>
+
+      <!-- Bar fills (covers Mon–Sun: 24,38,52,78,115,148,112 normalised to 204px) -->
+      <rect x="50"  y="199" width="36" height="33"  fill="currentColor" opacity="0.20"/>
+      <rect x="110" y="180" width="36" height="52"  fill="currentColor" opacity="0.20"/>
+      <rect x="170" y="160" width="36" height="72"  fill="currentColor" opacity="0.20"/>
+      <rect x="230" y="125" width="36" height="107" fill="currentColor" opacity="0.20"/>
+      <rect x="290" y="74"  width="36" height="158" fill="currentColor" opacity="0.22"/>
+      <rect x="350" y="28"  width="36" height="204" fill="#C8102E"     opacity="0.16"/>
+      <rect x="410" y="78"  width="36" height="154" fill="currentColor" opacity="0.20"/>
+
+      <!-- Bar top caps -->
+      <line x1="50"  y1="199" x2="86"  y2="199" stroke="currentColor" stroke-width="1.8"/>
+      <line x1="110" y1="180" x2="146" y2="180" stroke="currentColor" stroke-width="1.8"/>
+      <line x1="170" y1="160" x2="206" y2="160" stroke="currentColor" stroke-width="1.8"/>
+      <line x1="230" y1="125" x2="266" y2="125" stroke="currentColor" stroke-width="1.8"/>
+      <line x1="290" y1="74"  x2="326" y2="74"  stroke="currentColor" stroke-width="1.8"/>
+      <line x1="350" y1="28"  x2="386" y2="28"  stroke="#C8102E"     stroke-width="1.8"/>
+      <line x1="410" y1="78"  x2="446" y2="78"  stroke="currentColor" stroke-width="1.8"/>
+
+      <!-- Avg spend line (red — high Mon/Sun, dips midweek) -->
+      <polyline points="68,65 128,158 188,213 248,195 308,139 368,84 428,46"
+                fill="none" stroke="#C8102E" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- Avg spend dots -->
+      <circle cx="68"  cy="65"  r="2.5" fill="#C8102E"/>
+      <circle cx="128" cy="158" r="2.5" fill="#C8102E"/>
+      <circle cx="188" cy="213" r="2.5" fill="#C8102E"/>
+      <circle cx="248" cy="195" r="2.5" fill="#C8102E"/>
+      <circle cx="308" cy="139" r="2.5" fill="#C8102E"/>
+      <circle cx="368" cy="84"  r="2.5" fill="#C8102E"/>
+      <circle cx="428" cy="46"  r="2.5" fill="#C8102E"/>
+
+      <!-- Day labels -->
+      <text x="68"  y="245" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="currentColor" text-anchor="middle" opacity="0.6">MON</text>
+      <text x="128" y="245" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="currentColor" text-anchor="middle" opacity="0.6">TUE</text>
+      <text x="188" y="245" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="currentColor" text-anchor="middle" opacity="0.6">WED</text>
+      <text x="248" y="245" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="currentColor" text-anchor="middle" opacity="0.6">THU</text>
+      <text x="308" y="245" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="currentColor" text-anchor="middle" opacity="0.6">FRI</text>
+      <text x="368" y="245" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="currentColor" text-anchor="middle" opacity="0.6">SAT</text>
+      <text x="428" y="245" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="currentColor" text-anchor="middle" opacity="0.6">SUN</text>
+
+      <!-- Section divider -->
+      <line x1="48" y1="260" x2="448" y2="260" stroke="currentColor" stroke-width="0.4" opacity="0.3"/>
+
+      <!-- ── Pie chart: Revenue Mix ── -->
+      <text x="48" y="278" font-family="'JetBrains Mono', monospace" font-size="8.5" letter-spacing="2" fill="currentColor" opacity="0.75">REVENUE MIX</text>
+
+      <!--
+        Pie: cx=248 cy=375 r=65. Arcs start 12 o'clock, clockwise.
+        Boundary points computed as (cx + r·cos θ, cy + r·sin θ)
+        where θ = 2π·cumulative − π/2
+        P0 (  0%) = (248, 310)   P1 (45%) = (268, 437)
+        P2 ( 83%) = (191, 344)   P3 (95%) = (228, 313)
+      -->
+
+      <!-- Food 45% -->
+      <path d="M248,310 A65,65 0 0,1 268,437 L248,375 Z" fill="currentColor" opacity="0.22"/>
+      <path d="M248,310 A65,65 0 0,1 268,437 L248,375 Z" fill="none" stroke="currentColor" stroke-width="0.7" opacity="0.5"/>
+
+      <!-- Drinks 38% -->
+      <path d="M268,437 A65,65 0 0,1 191,344 L248,375 Z" fill="currentColor" opacity="0.14"/>
+      <path d="M268,437 A65,65 0 0,1 191,344 L248,375 Z" fill="none" stroke="currentColor" stroke-width="0.7" opacity="0.5"/>
+
+      <!-- Private Dining 12% -->
+      <path d="M191,344 A65,65 0 0,1 228,313 L248,375 Z" fill="#C8102E" opacity="0.22"/>
+      <path d="M191,344 A65,65 0 0,1 228,313 L248,375 Z" fill="none" stroke="#C8102E" stroke-width="0.7" opacity="0.6"/>
+
+      <!-- Other 5% -->
+      <path d="M228,313 A65,65 0 0,1 248,310 L248,375 Z" fill="currentColor" opacity="0.07"/>
+      <path d="M228,313 A65,65 0 0,1 248,310 L248,375 Z" fill="none" stroke="currentColor" stroke-width="0.7" opacity="0.5"/>
+
+      <!-- Outer ring -->
+      <circle cx="248" cy="375" r="65" fill="none" stroke="currentColor" stroke-width="0.7" opacity="0.5"/>
+
+      <!-- Pie legend (right of centred pie, x=313+17 gap = 330) -->
+      <rect x="330" y="320" width="9" height="9" fill="currentColor" opacity="0.50"/>
+      <text x="343" y="330" font-family="'JetBrains Mono', monospace" font-size="8" fill="currentColor" opacity="0.8">FOOD</text>
+      <text x="343" y="342" font-family="'JetBrains Mono', monospace" font-size="7" fill="currentColor" opacity="0.55">45%</text>
+
+      <rect x="330" y="358" width="9" height="9" fill="currentColor" opacity="0.32"/>
+      <text x="343" y="368" font-family="'JetBrains Mono', monospace" font-size="8" fill="currentColor" opacity="0.8">DRINKS</text>
+      <text x="343" y="380" font-family="'JetBrains Mono', monospace" font-size="7" fill="currentColor" opacity="0.55">38%</text>
+
+      <rect x="330" y="396" width="9" height="9" fill="#C8102E" opacity="0.50"/>
+      <text x="343" y="406" font-family="'JetBrains Mono', monospace" font-size="8" fill="currentColor" opacity="0.8">PRIVATE</text>
+      <text x="343" y="418" font-family="'JetBrains Mono', monospace" font-size="7" fill="currentColor" opacity="0.55">12%</text>
+
+      <rect x="330" y="434" width="9" height="9" fill="currentColor" opacity="0.18"/>
+      <text x="343" y="444" font-family="'JetBrains Mono', monospace" font-size="8" fill="currentColor" opacity="0.8">OTHER</text>
+      <text x="343" y="456" font-family="'JetBrains Mono', monospace" font-size="7" fill="currentColor" opacity="0.55">5%</text>
+
     </svg>
 
   </div>
