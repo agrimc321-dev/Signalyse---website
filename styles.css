@@ -1050,6 +1050,66 @@ hr.tier-divider {
 
 
 /* ============================================================
+   §21 — Home — live signal section
+   ============================================================ */
+.section-signal {
+  background: var(--bg-dark);
+  color: var(--bg-primary);
+}
+
+.section-signal .section-label {
+  color: var(--ink-light);
+}
+
+.section-signal h2 {
+  color: var(--bg-primary);
+}
+
+.section-signal .lead {
+  color: rgba(250, 247, 240, 0.65);
+  max-width: 56ch;
+}
+
+.signal-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 40px;
+  align-items: start;
+}
+
+.signal-figure {
+  margin: 0;
+}
+
+.signal-figure img {
+  width: 100%;
+  display: block;
+}
+
+.signal-caption {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-top: 10px;
+}
+
+.signal-insight {
+  margin-top: 48px;
+  padding-left: 20px;
+  border-left: 2px solid var(--accent);
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.65;
+  color: rgba(250, 247, 240, 0.7);
+  max-width: 680px;
+}
+
+
+/* ============================================================
    §22 — Responsive overrides
    ============================================================ */
 
@@ -1058,6 +1118,7 @@ hr.tier-divider {
   .tier-preview-grid { grid-template-columns: 1fr; gap: 12px; }
   .tier-expand { max-height: none; opacity: 1; overflow: visible; transition: none; }
   .tier-hover-hint { display: none; }
+  .signal-grid { grid-template-columns: 1fr; gap: 24px; }
 }
 
 /* ≥768px — tablet */
