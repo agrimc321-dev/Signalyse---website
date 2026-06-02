@@ -1133,12 +1133,12 @@ hr.tier-divider {
 
   .footer-grid { grid-template-columns: 2fr 1fr 1fr; gap: 48px; }
 
-  .testimonials-grid { grid-template-columns: repeat(3, 1fr); gap: 0; }
+  .testimonials-grid { grid-template-columns: repeat(2, 1fr); gap: 0; max-width: 860px; margin-left: auto; margin-right: auto; }
   .testimonial {
-    padding-right: 32px;
+    padding-right: 48px;
     border-right: 0.5px solid var(--rule);
   }
-  .testimonial:last-child { border-right: none; padding-right: 0; }
+  .testimonial:last-child { border-right: none; padding-right: 0; padding-left: 48px; }
 
   .question-grid { grid-template-columns: repeat(2, 1fr); }
   .question-card { padding: 48px 40px 48px 0; border-top: 0.5px solid var(--rule); border-bottom: none; }
