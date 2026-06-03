@@ -1137,7 +1137,7 @@ hr.tier-divider {
 
   .footer-grid { grid-template-columns: 2fr 1fr 1fr; gap: 48px; }
 
-  .testimonials-grid { grid-template-columns: repeat(2, 1fr); gap: 0; max-width: 860px; margin-left: auto; margin-right: auto; }
+  .testimonials-grid { grid-template-columns: repeat(2, 1fr); gap: 0; max-width: 860px; margin-left: 0; margin-right: auto; }
   .testimonial {
     padding-right: 48px;
     border-right: 0.5px solid var(--rule);
