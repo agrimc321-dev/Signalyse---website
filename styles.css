@@ -575,6 +575,10 @@ hr.rule-thin {
   margin-top: 48px;
 }
 
+.testimonial {
+  display: flex;
+  flex-direction: column;
+}
 .testimonial-mark {
   font-family: var(--font-display);
   font-size: 64px;
@@ -590,7 +594,7 @@ hr.rule-thin {
   line-height: 1.7;
   margin-bottom: 20px;
 }
-.testimonial hr { height: 0.5px; background: var(--rule); border: none; margin-bottom: 16px; }
+.testimonial hr { height: 0.5px; background: var(--rule); border: none; margin-top: auto; margin-bottom: 16px; }
 .testimonial-name {
   font-family: var(--font-mono);
   font-size: 11px;
