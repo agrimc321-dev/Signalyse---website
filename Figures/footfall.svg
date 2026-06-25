@@ -12,7 +12,7 @@
   <text x="56" y="200" font-size="120" fill="#FAF7F0" font-weight="400">6,316</text>
   <text x="56" y="246" font-size="26" fill="#8A8A82" font-style="italic">Pedestrian visits</text>
 
-  <text x="980" y="200" font-size="70" fill="#C8102E" text-anchor="end">↑  27%</text>
+  <text x="980" y="200" font-size="70" fill="#8A8A82" text-anchor="end">↓  21%</text>
   <text x="980" y="246" font-size="26" fill="#8A8A82" font-style="italic" text-anchor="end">vs week prior</text>
 
   <!-- Bottom-left: Domestic -->
