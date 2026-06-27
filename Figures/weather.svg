@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-06-26T09:02:09.668450</dc:date>
+    <dc:date>2026-06-27T12:32:36.636011</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -65,7 +65,7 @@ z
      <g id="line2d_8">
       <path d="M 29.8775 378.491062 
 L 718.9175 378.491062 
-" clip-path="url(#p0738a6b80b)" style="fill: none; stroke: #393735; stroke-opacity: 0.15; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#p1cce493d20)" style="fill: none; stroke: #393735; stroke-opacity: 0.15; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
      <g id="line2d_9"/>
      <g id="text_1">
@@ -132,7 +132,7 @@ z
      <g id="line2d_10">
       <path d="M 29.8775 296.591062 
 L 718.9175 296.591062 
-" clip-path="url(#p0738a6b80b)" style="fill: none; stroke: #393735; stroke-opacity: 0.15; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#p1cce493d20)" style="fill: none; stroke: #393735; stroke-opacity: 0.15; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
      <g id="line2d_11"/>
      <g id="text_2">
@@ -174,7 +174,7 @@ z
      <g id="line2d_12">
       <path d="M 29.8775 214.691062 
 L 718.9175 214.691062 
-" clip-path="url(#p0738a6b80b)" style="fill: none; stroke: #393735; stroke-opacity: 0.15; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#p1cce493d20)" style="fill: none; stroke: #393735; stroke-opacity: 0.15; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
      <g id="line2d_13"/>
      <g id="text_3">
@@ -229,7 +229,7 @@ z
      <g id="line2d_14">
       <path d="M 29.8775 132.791062 
 L 718.9175 132.791062 
-" clip-path="url(#p0738a6b80b)" style="fill: none; stroke: #393735; stroke-opacity: 0.15; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#p1cce493d20)" style="fill: none; stroke: #393735; stroke-opacity: 0.15; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
      <g id="line2d_15"/>
      <g id="text_4">
@@ -308,7 +308,7 @@ z
      <g id="line2d_16">
       <path d="M 29.8775 50.891062 
 L 718.9175 50.891062 
-" clip-path="url(#p0738a6b80b)" style="fill: none; stroke: #393735; stroke-opacity: 0.15; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#p1cce493d20)" style="fill: none; stroke: #393735; stroke-opacity: 0.15; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
      <g id="line2d_17"/>
      <g id="text_5">
@@ -349,7 +349,7 @@ L 718.9175 378.491062
    </g>
    <g id="text_6">
     <!-- max -->
-    <g style="fill: #9b2c1f" transform="translate(658.393716 154.862431) scale(0.12 -0.12)">
+    <g style="fill: #9b2c1f" transform="translate(658.393716 172.880437) scale(0.12 -0.12)">
      <defs>
       <path id="Georgia-Italic-6d" d="M 5447 353 
 L 5400 153 
@@ -518,7 +518,7 @@ z
    </g>
    <g id="text_7">
     <!-- mean -->
-    <g style="fill: #c97a6e" transform="translate(658.393716 182.333051) scale(0.12 -0.12)">
+    <g style="fill: #c97a6e" transform="translate(658.393716 206.988374) scale(0.12 -0.12)">
      <defs>
       <path id="Georgia-Italic-65" d="M 2894 2503 
 Q 2894 2172 2686 1934 
@@ -607,8 +607,8 @@ z
     </g>
    </g>
    <g id="text_8">
-    <!-- Sat 20.06 -->
-    <g style="fill: #1a1a1a" transform="translate(60.107796 423.598312) scale(0.12 -0.12)">
+    <!-- Sun 21.06 -->
+    <g style="fill: #1a1a1a" transform="translate(59.310921 423.598312) scale(0.12 -0.12)">
      <defs>
       <path id="Georgia-53" d="M 3066 2034 
 Q 3206 1878 3273 1692 
@@ -659,86 +659,96 @@ Q 2591 2378 2764 2275
 Q 2938 2172 3066 2034 
 z
 " transform="scale(0.015625)"/>
-      <path id="Georgia-61" d="M 3144 56 
-Q 2997 3 2886 -30 
-Q 2775 -63 2634 -63 
-Q 2391 -63 2245 51 
-Q 2100 166 2059 384 
-L 2041 384 
-Q 1838 159 1605 40 
-Q 1372 -78 1044 -78 
-Q 697 -78 473 134 
-Q 250 347 250 691 
-Q 250 869 300 1009 
-Q 350 1150 450 1263 
-Q 528 1356 656 1429 
-Q 784 1503 897 1547 
-Q 1038 1600 1467 1744 
-Q 1897 1888 2047 1969 
-L 2047 2278 
-Q 2047 2319 2030 2434 
-Q 2013 2550 1956 2653 
-Q 1894 2769 1780 2855 
-Q 1666 2941 1456 2941 
-Q 1313 2941 1189 2892 
-Q 1066 2844 1016 2791 
-Q 1016 2728 1045 2606 
-Q 1075 2484 1075 2381 
-Q 1075 2272 976 2181 
-Q 878 2091 703 2091 
-Q 547 2091 473 2202 
-Q 400 2313 400 2450 
-Q 400 2594 501 2725 
-Q 603 2856 766 2959 
-Q 906 3047 1106 3108 
-Q 1306 3169 1497 3169 
-Q 1759 3169 1954 3133 
-Q 2150 3097 2309 2978 
-Q 2469 2863 2551 2664 
-Q 2634 2466 2634 2153 
-Q 2634 1706 2625 1361 
-Q 2616 1016 2616 606 
-Q 2616 484 2658 412 
-Q 2700 341 2788 291 
-Q 2834 263 2936 259 
-Q 3038 256 3144 256 
-L 3144 56 
-z
-M 2053 1706 
-Q 1788 1628 1588 1553 
-Q 1388 1478 1216 1366 
-Q 1059 1259 968 1114 
-Q 878 969 878 769 
-Q 878 509 1014 387 
-Q 1150 266 1359 266 
-Q 1581 266 1750 373 
-Q 1919 481 2034 628 
-L 2053 1706 
+      <path id="Georgia-75" d="M 3528 56 
+L 2525 -13 
+L 2478 31 
+L 2478 422 
+L 2459 422 
+Q 2384 344 2290 255 
+Q 2197 166 2075 94 
+Q 1934 9 1803 -34 
+Q 1672 -78 1431 -78 
+Q 1022 -78 808 189 
+Q 594 456 594 966 
+L 594 2441 
+Q 594 2553 551 2629 
+Q 509 2706 428 2763 
+Q 372 2800 287 2817 
+Q 203 2834 109 2841 
+L 109 3044 
+L 1138 3119 
+L 1184 3075 
+L 1184 934 
+Q 1184 600 1334 431 
+Q 1484 263 1694 263 
+Q 1866 263 2000 316 
+Q 2134 369 2225 441 
+Q 2309 506 2373 579 
+Q 2438 653 2472 716 
+L 2472 2463 
+Q 2472 2566 2428 2645 
+Q 2384 2725 2306 2781 
+Q 2250 2819 2139 2826 
+Q 2028 2834 1891 2841 
+L 1891 3044 
+L 3009 3119 
+L 3056 3075 
+L 3056 628 
+Q 3056 522 3100 447 
+Q 3144 372 3222 319 
+Q 3278 284 3356 273 
+Q 3434 263 3528 259 
+L 3528 56 
 z
 " transform="scale(0.015625)"/>
-      <path id="Georgia-74" d="M 2128 134 
-Q 1925 50 1744 -8 
-Q 1563 -66 1300 -66 
-Q 913 -66 755 129 
-Q 597 325 597 681 
-L 597 2769 
-L 41 2769 
-L 41 3069 
-L 609 3069 
-L 609 4028 
-L 1178 4028 
-L 1178 3069 
-L 2063 3069 
-L 2063 2769 
-L 1184 2769 
-L 1184 1047 
-Q 1184 853 1198 723 
-Q 1213 594 1266 497 
-Q 1316 406 1416 359 
-Q 1516 313 1684 313 
-Q 1763 313 1914 327 
-Q 2066 341 2128 363 
-L 2128 134 
+      <path id="Georgia-6e" d="M 3628 0 
+L 2119 0 
+L 2119 206 
+Q 2191 213 2277 219 
+Q 2363 225 2419 244 
+Q 2506 272 2548 342 
+Q 2591 413 2591 525 
+L 2591 2109 
+Q 2591 2438 2436 2616 
+Q 2281 2794 2059 2794 
+Q 1894 2794 1756 2742 
+Q 1619 2691 1513 2616 
+Q 1409 2544 1348 2461 
+Q 1288 2378 1259 2328 
+L 1259 556 
+Q 1259 450 1303 381 
+Q 1347 313 1434 275 
+Q 1500 244 1576 228 
+Q 1653 213 1734 206 
+L 1734 0 
+L 225 0 
+L 225 206 
+Q 297 213 373 219 
+Q 450 225 506 244 
+Q 594 272 636 342 
+Q 678 413 678 525 
+L 678 2428 
+Q 678 2534 633 2623 
+Q 588 2713 506 2769 
+Q 447 2806 365 2823 
+Q 284 2841 191 2847 
+L 191 3050 
+L 1216 3119 
+L 1259 3075 
+L 1259 2641 
+L 1275 2641 
+Q 1350 2716 1462 2820 
+Q 1575 2925 1675 2991 
+Q 1791 3066 1950 3116 
+Q 2109 3166 2309 3166 
+Q 2753 3166 2967 2889 
+Q 3181 2613 3181 2153 
+L 3181 550 
+Q 3181 441 3218 373 
+Q 3256 306 3347 269 
+Q 3422 238 3476 225 
+Q 3531 213 3628 206 
+L 3628 0 
 z
 " transform="scale(0.015625)"/>
       <path id="Georgia-20" transform="scale(0.015625)"/>
@@ -788,14 +798,14 @@ z
 " transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#Georgia-53"/>
-     <use xlink:href="#Georgia-61" x="56.103516"/>
-     <use xlink:href="#Georgia-74" x="106.494141"/>
-     <use xlink:href="#Georgia-20" x="141.015625"/>
-     <use xlink:href="#Georgia-32" x="165.136719"/>
-     <use xlink:href="#Georgia-30" x="220.996094"/>
-     <use xlink:href="#Georgia-2e" x="282.373047"/>
-     <use xlink:href="#Georgia-30" x="309.326172"/>
-     <use xlink:href="#Georgia-36" x="370.703125"/>
+     <use xlink:href="#Georgia-75" x="56.103516"/>
+     <use xlink:href="#Georgia-6e" x="113.623047"/>
+     <use xlink:href="#Georgia-20" x="172.705078"/>
+     <use xlink:href="#Georgia-32" x="196.826172"/>
+     <use xlink:href="#Georgia-31" x="252.685547"/>
+     <use xlink:href="#Georgia-2e" x="295.654297"/>
+     <use xlink:href="#Georgia-30" x="322.607422"/>
+     <use xlink:href="#Georgia-36" x="383.984375"/>
     </g>
    </g>
    <g id="text_9">
@@ -914,128 +924,8 @@ z
     </g>
    </g>
    <g id="text_10">
-    <!-- Sun 21.06 -->
-    <g style="fill: #1a1a1a" transform="translate(152.424434 423.598312) scale(0.12 -0.12)">
-     <defs>
-      <path id="Georgia-75" d="M 3528 56 
-L 2525 -13 
-L 2478 31 
-L 2478 422 
-L 2459 422 
-Q 2384 344 2290 255 
-Q 2197 166 2075 94 
-Q 1934 9 1803 -34 
-Q 1672 -78 1431 -78 
-Q 1022 -78 808 189 
-Q 594 456 594 966 
-L 594 2441 
-Q 594 2553 551 2629 
-Q 509 2706 428 2763 
-Q 372 2800 287 2817 
-Q 203 2834 109 2841 
-L 109 3044 
-L 1138 3119 
-L 1184 3075 
-L 1184 934 
-Q 1184 600 1334 431 
-Q 1484 263 1694 263 
-Q 1866 263 2000 316 
-Q 2134 369 2225 441 
-Q 2309 506 2373 579 
-Q 2438 653 2472 716 
-L 2472 2463 
-Q 2472 2566 2428 2645 
-Q 2384 2725 2306 2781 
-Q 2250 2819 2139 2826 
-Q 2028 2834 1891 2841 
-L 1891 3044 
-L 3009 3119 
-L 3056 3075 
-L 3056 628 
-Q 3056 522 3100 447 
-Q 3144 372 3222 319 
-Q 3278 284 3356 273 
-Q 3434 263 3528 259 
-L 3528 56 
-z
-" transform="scale(0.015625)"/>
-      <path id="Georgia-6e" d="M 3628 0 
-L 2119 0 
-L 2119 206 
-Q 2191 213 2277 219 
-Q 2363 225 2419 244 
-Q 2506 272 2548 342 
-Q 2591 413 2591 525 
-L 2591 2109 
-Q 2591 2438 2436 2616 
-Q 2281 2794 2059 2794 
-Q 1894 2794 1756 2742 
-Q 1619 2691 1513 2616 
-Q 1409 2544 1348 2461 
-Q 1288 2378 1259 2328 
-L 1259 556 
-Q 1259 450 1303 381 
-Q 1347 313 1434 275 
-Q 1500 244 1576 228 
-Q 1653 213 1734 206 
-L 1734 0 
-L 225 0 
-L 225 206 
-Q 297 213 373 219 
-Q 450 225 506 244 
-Q 594 272 636 342 
-Q 678 413 678 525 
-L 678 2428 
-Q 678 2534 633 2623 
-Q 588 2713 506 2769 
-Q 447 2806 365 2823 
-Q 284 2841 191 2847 
-L 191 3050 
-L 1216 3119 
-L 1259 3075 
-L 1259 2641 
-L 1275 2641 
-Q 1350 2716 1462 2820 
-Q 1575 2925 1675 2991 
-Q 1791 3066 1950 3116 
-Q 2109 3166 2309 3166 
-Q 2753 3166 2967 2889 
-Q 3181 2613 3181 2153 
-L 3181 550 
-Q 3181 441 3218 373 
-Q 3256 306 3347 269 
-Q 3422 238 3476 225 
-Q 3531 213 3628 206 
-L 3628 0 
-z
-" transform="scale(0.015625)"/>
-     </defs>
-     <use xlink:href="#Georgia-53"/>
-     <use xlink:href="#Georgia-75" x="56.103516"/>
-     <use xlink:href="#Georgia-6e" x="113.623047"/>
-     <use xlink:href="#Georgia-20" x="172.705078"/>
-     <use xlink:href="#Georgia-32" x="196.826172"/>
-     <use xlink:href="#Georgia-31" x="252.685547"/>
-     <use xlink:href="#Georgia-2e" x="295.654297"/>
-     <use xlink:href="#Georgia-30" x="322.607422"/>
-     <use xlink:href="#Georgia-36" x="383.984375"/>
-    </g>
-   </g>
-   <g id="text_11">
-    <!-- 16.62 h -->
-    <g style="fill: #393735" transform="translate(159.787247 441.7815) scale(0.1 -0.1)">
-     <use xlink:href="#DejaVuSans-Oblique-31"/>
-     <use xlink:href="#DejaVuSans-Oblique-36" x="63.623047"/>
-     <use xlink:href="#DejaVuSans-Oblique-2e" x="127.246094"/>
-     <use xlink:href="#DejaVuSans-Oblique-36" x="159.033203"/>
-     <use xlink:href="#DejaVuSans-Oblique-32" x="222.65625"/>
-     <use xlink:href="#DejaVuSans-Oblique-20" x="286.279297"/>
-     <use xlink:href="#DejaVuSans-Oblique-68" x="318.066406"/>
-    </g>
-   </g>
-   <g id="text_12">
     <!-- Mon 22.06 -->
-    <g style="fill: #1a1a1a" transform="translate(242.78451 423.598312) scale(0.12 -0.12)">
+    <g style="fill: #1a1a1a" transform="translate(149.670997 423.598312) scale(0.12 -0.12)">
      <defs>
       <path id="Georgia-4d" d="M 5644 0 
 L 3684 0 
@@ -1130,9 +1020,9 @@ z
      <use xlink:href="#Georgia-36" x="429.882812"/>
     </g>
    </g>
-   <g id="text_13">
+   <g id="text_11">
     <!-- 16.62 h -->
-    <g style="fill: #393735" transform="translate(252.90076 441.7815) scale(0.1 -0.1)">
+    <g style="fill: #393735" transform="translate(159.787247 441.7815) scale(0.1 -0.1)">
      <use xlink:href="#DejaVuSans-Oblique-31"/>
      <use xlink:href="#DejaVuSans-Oblique-36" x="63.623047"/>
      <use xlink:href="#DejaVuSans-Oblique-2e" x="127.246094"/>
@@ -1142,9 +1032,9 @@ z
      <use xlink:href="#DejaVuSans-Oblique-68" x="318.066406"/>
     </g>
    </g>
-   <g id="text_14">
+   <g id="text_12">
     <!-- Tue 23.06 -->
-    <g style="fill: #1a1a1a" transform="translate(338.218336 423.598312) scale(0.12 -0.12)">
+    <g style="fill: #1a1a1a" transform="translate(245.104823 423.598312) scale(0.12 -0.12)">
      <defs>
       <path id="Georgia-54" d="M 3909 3231 
 L 3694 3231 
@@ -1228,9 +1118,9 @@ z
      <use xlink:href="#Georgia-36" x="391.210938"/>
     </g>
    </g>
-   <g id="text_15">
+   <g id="text_13">
     <!-- 16.62 h -->
-    <g style="fill: #393735" transform="translate(346.014274 441.7815) scale(0.1 -0.1)">
+    <g style="fill: #393735" transform="translate(252.90076 441.7815) scale(0.1 -0.1)">
      <use xlink:href="#DejaVuSans-Oblique-31"/>
      <use xlink:href="#DejaVuSans-Oblique-36" x="63.623047"/>
      <use xlink:href="#DejaVuSans-Oblique-2e" x="127.246094"/>
@@ -1240,9 +1130,9 @@ z
      <use xlink:href="#DejaVuSans-Oblique-68" x="318.066406"/>
     </g>
    </g>
-   <g id="text_16">
+   <g id="text_14">
     <!-- Wed 24.06 -->
-    <g style="fill: #1a1a1a" transform="translate(429.1156 423.598312) scale(0.12 -0.12)">
+    <g style="fill: #1a1a1a" transform="translate(336.002086 423.598312) scale(0.12 -0.12)">
      <defs>
       <path id="Georgia-57" d="M 6338 4213 
 Q 6259 4209 6156 4176 
@@ -1346,9 +1236,9 @@ z
      <use xlink:href="#Georgia-36" x="428.125"/>
     </g>
    </g>
-   <g id="text_17">
+   <g id="text_15">
     <!-- 16.61 h -->
-    <g style="fill: #393735" transform="translate(439.127787 441.7815) scale(0.1 -0.1)">
+    <g style="fill: #393735" transform="translate(346.014274 441.7815) scale(0.1 -0.1)">
      <use xlink:href="#DejaVuSans-Oblique-31"/>
      <use xlink:href="#DejaVuSans-Oblique-36" x="63.623047"/>
      <use xlink:href="#DejaVuSans-Oblique-2e" x="127.246094"/>
@@ -1358,9 +1248,9 @@ z
      <use xlink:href="#DejaVuSans-Oblique-68" x="318.066406"/>
     </g>
    </g>
-   <g id="text_18">
+   <g id="text_16">
     <!-- Thu 25.06 -->
-    <g style="fill: #1a1a1a" transform="translate(523.994426 423.598312) scale(0.12 -0.12)">
+    <g style="fill: #1a1a1a" transform="translate(430.880912 423.598312) scale(0.12 -0.12)">
      <defs>
       <path id="Georgia-68" d="M 3572 0 
 L 2059 0 
@@ -1461,9 +1351,9 @@ z
      <use xlink:href="#Georgia-36" x="398.730469"/>
     </g>
    </g>
-   <g id="text_19">
+   <g id="text_17">
     <!-- 16.61 h -->
-    <g style="fill: #393735" transform="translate(532.241301 441.7815) scale(0.1 -0.1)">
+    <g style="fill: #393735" transform="translate(439.127787 441.7815) scale(0.1 -0.1)">
      <use xlink:href="#DejaVuSans-Oblique-31"/>
      <use xlink:href="#DejaVuSans-Oblique-36" x="63.623047"/>
      <use xlink:href="#DejaVuSans-Oblique-2e" x="127.246094"/>
@@ -1473,9 +1363,9 @@ z
      <use xlink:href="#DejaVuSans-Oblique-68" x="318.066406"/>
     </g>
    </g>
-   <g id="text_20">
+   <g id="text_18">
     <!-- Fri 26.06 -->
-    <g style="fill: #1a1a1a" transform="translate(619.726377 423.598312) scale(0.12 -0.12)">
+    <g style="fill: #1a1a1a" transform="translate(526.612863 423.598312) scale(0.12 -0.12)">
      <defs>
       <path id="Georgia-46" d="M 3747 3325 
 L 3513 3325 
@@ -1602,9 +1492,9 @@ z
      <use xlink:href="#Georgia-36" x="355.078125"/>
     </g>
    </g>
-   <g id="text_21">
+   <g id="text_19">
     <!-- 16.60 h -->
-    <g style="fill: #393735" transform="translate(625.354814 441.7815) scale(0.1 -0.1)">
+    <g style="fill: #393735" transform="translate(532.241301 441.7815) scale(0.1 -0.1)">
      <defs>
       <path id="DejaVuSans-Oblique-30" d="M 2444 4750 
 Q 3078 4750 3414 4328 
@@ -1641,6 +1531,194 @@ z
      <use xlink:href="#DejaVuSans-Oblique-2e" x="127.246094"/>
      <use xlink:href="#DejaVuSans-Oblique-36" x="159.033203"/>
      <use xlink:href="#DejaVuSans-Oblique-30" x="222.65625"/>
+     <use xlink:href="#DejaVuSans-Oblique-20" x="286.279297"/>
+     <use xlink:href="#DejaVuSans-Oblique-68" x="318.066406"/>
+    </g>
+   </g>
+   <g id="text_20">
+    <!-- Sat 27.06 -->
+    <g style="fill: #1a1a1a" transform="translate(619.456377 423.598312) scale(0.12 -0.12)">
+     <defs>
+      <path id="Georgia-61" d="M 3144 56 
+Q 2997 3 2886 -30 
+Q 2775 -63 2634 -63 
+Q 2391 -63 2245 51 
+Q 2100 166 2059 384 
+L 2041 384 
+Q 1838 159 1605 40 
+Q 1372 -78 1044 -78 
+Q 697 -78 473 134 
+Q 250 347 250 691 
+Q 250 869 300 1009 
+Q 350 1150 450 1263 
+Q 528 1356 656 1429 
+Q 784 1503 897 1547 
+Q 1038 1600 1467 1744 
+Q 1897 1888 2047 1969 
+L 2047 2278 
+Q 2047 2319 2030 2434 
+Q 2013 2550 1956 2653 
+Q 1894 2769 1780 2855 
+Q 1666 2941 1456 2941 
+Q 1313 2941 1189 2892 
+Q 1066 2844 1016 2791 
+Q 1016 2728 1045 2606 
+Q 1075 2484 1075 2381 
+Q 1075 2272 976 2181 
+Q 878 2091 703 2091 
+Q 547 2091 473 2202 
+Q 400 2313 400 2450 
+Q 400 2594 501 2725 
+Q 603 2856 766 2959 
+Q 906 3047 1106 3108 
+Q 1306 3169 1497 3169 
+Q 1759 3169 1954 3133 
+Q 2150 3097 2309 2978 
+Q 2469 2863 2551 2664 
+Q 2634 2466 2634 2153 
+Q 2634 1706 2625 1361 
+Q 2616 1016 2616 606 
+Q 2616 484 2658 412 
+Q 2700 341 2788 291 
+Q 2834 263 2936 259 
+Q 3038 256 3144 256 
+L 3144 56 
+z
+M 2053 1706 
+Q 1788 1628 1588 1553 
+Q 1388 1478 1216 1366 
+Q 1059 1259 968 1114 
+Q 878 969 878 769 
+Q 878 509 1014 387 
+Q 1150 266 1359 266 
+Q 1581 266 1750 373 
+Q 1919 481 2034 628 
+L 2053 1706 
+z
+" transform="scale(0.015625)"/>
+      <path id="Georgia-74" d="M 2128 134 
+Q 1925 50 1744 -8 
+Q 1563 -66 1300 -66 
+Q 913 -66 755 129 
+Q 597 325 597 681 
+L 597 2769 
+L 41 2769 
+L 41 3069 
+L 609 3069 
+L 609 4028 
+L 1178 4028 
+L 1178 3069 
+L 2063 3069 
+L 2063 2769 
+L 1184 2769 
+L 1184 1047 
+Q 1184 853 1198 723 
+Q 1213 594 1266 497 
+Q 1316 406 1416 359 
+Q 1516 313 1684 313 
+Q 1763 313 1914 327 
+Q 2066 341 2128 363 
+L 2128 134 
+z
+" transform="scale(0.015625)"/>
+      <path id="Georgia-37" d="M 3216 3150 
+L 988 -1141 
+L 597 -1141 
+L 2694 2828 
+L 1466 2828 
+Q 1194 2828 1041 2822 
+Q 888 2816 759 2763 
+Q 663 2722 586 2555 
+Q 509 2388 469 2128 
+L 278 2128 
+L 278 3353 
+L 3216 3353 
+L 3216 3150 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Georgia-53"/>
+     <use xlink:href="#Georgia-61" x="56.103516"/>
+     <use xlink:href="#Georgia-74" x="106.494141"/>
+     <use xlink:href="#Georgia-20" x="141.015625"/>
+     <use xlink:href="#Georgia-32" x="165.136719"/>
+     <use xlink:href="#Georgia-37" x="220.996094"/>
+     <use xlink:href="#Georgia-2e" x="271.240234"/>
+     <use xlink:href="#Georgia-30" x="298.193359"/>
+     <use xlink:href="#Georgia-36" x="359.570312"/>
+    </g>
+   </g>
+   <g id="text_21">
+    <!-- 16.59 h -->
+    <g style="fill: #393735" transform="translate(625.354814 441.7815) scale(0.1 -0.1)">
+     <defs>
+      <path id="DejaVuSans-Oblique-35" d="M 3719 4666 
+L 3622 4141 
+L 1691 4141 
+L 1466 2988 
+Q 1609 3034 1757 3056 
+Q 1906 3078 2059 3078 
+Q 2706 3078 3081 2731 
+Q 3456 2384 3456 1791 
+Q 3456 1375 3264 994 
+Q 3072 613 2719 325 
+Q 2469 125 2108 17 
+Q 1747 -91 1319 -91 
+Q 1038 -91 744 -41 
+Q 450 9 128 109 
+L 244 697 
+Q 531 556 820 486 
+Q 1109 416 1403 416 
+Q 2013 416 2411 781 
+Q 2809 1147 2809 1697 
+Q 2809 2103 2548 2328 
+Q 2288 2553 1819 2553 
+Q 1572 2553 1305 2495 
+Q 1038 2438 756 2322 
+L 1209 4666 
+L 3719 4666 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-Oblique-39" d="M 281 103 
+L 397 678 
+Q 578 559 809 496 
+Q 1041 434 1306 434 
+Q 1953 434 2348 843 
+Q 2744 1253 2938 2119 
+Q 2706 1853 2401 1714 
+Q 2097 1575 1747 1575 
+Q 1178 1575 842 1904 
+Q 506 2234 506 2791 
+Q 506 3247 672 3639 
+Q 838 4031 1159 4325 
+Q 1378 4531 1665 4640 
+Q 1953 4750 2278 4750 
+Q 2925 4750 3300 4339 
+Q 3675 3928 3675 3219 
+Q 3675 2559 3501 1943 
+Q 3328 1328 3022 878 
+Q 2697 403 2240 156 
+Q 1784 -91 1228 -91 
+Q 988 -91 748 -42 
+Q 509 6 281 103 
+z
+M 1131 2938 
+Q 1131 2541 1337 2308 
+Q 1544 2075 1894 2075 
+Q 2378 2075 2706 2447 
+Q 3034 2819 3034 3372 
+Q 3034 3784 2831 4017 
+Q 2628 4250 2272 4250 
+Q 1788 4250 1459 3870 
+Q 1131 3491 1131 2938 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#DejaVuSans-Oblique-31"/>
+     <use xlink:href="#DejaVuSans-Oblique-36" x="63.623047"/>
+     <use xlink:href="#DejaVuSans-Oblique-2e" x="127.246094"/>
+     <use xlink:href="#DejaVuSans-Oblique-35" x="159.033203"/>
+     <use xlink:href="#DejaVuSans-Oblique-39" x="222.65625"/>
      <use xlink:href="#DejaVuSans-Oblique-20" x="286.279297"/>
      <use xlink:href="#DejaVuSans-Oblique-68" x="318.066406"/>
     </g>
@@ -2141,7 +2219,7 @@ z
     </g>
    </g>
    <g id="text_30">
-    <!-- LAST UPDATED  2026-06-26 -->
+    <!-- LAST UPDATED  2026-06-27 -->
     <g style="fill: #393735; opacity: 0.65" transform="translate(588.87875 14.086406) scale(0.09 -0.09)">
      <defs>
       <path id="DejaVuSansMono-4c" d="M 672 4666 
@@ -2384,6 +2462,16 @@ L 1113 1497
 L 1113 2009 
 z
 " transform="scale(0.015625)"/>
+      <path id="DejaVuSansMono-37" d="M 434 4666 
+L 3372 4666 
+L 3372 4397 
+L 1703 0 
+L 1044 0 
+L 2669 4134 
+L 434 4134 
+L 434 4666 
+z
+" transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#DejaVuSansMono-4c"/>
      <use xlink:href="#DejaVuSansMono-41" x="60.205078"/>
@@ -2408,20 +2496,20 @@ z
      <use xlink:href="#DejaVuSansMono-36" x="1204.101562"/>
      <use xlink:href="#DejaVuSansMono-2d" x="1264.306641"/>
      <use xlink:href="#DejaVuSansMono-32" x="1324.511719"/>
-     <use xlink:href="#DejaVuSansMono-36" x="1384.716797"/>
+     <use xlink:href="#DejaVuSansMono-37" x="1384.716797"/>
     </g>
    </g>
    <g id="line2d_18">
-    <path d="M 85.745608 208.548562 
-L 178.859122 164.322566 
-L 271.972635 134.429069 
-L 365.086149 118.868056 
-L 458.199662 103.716569 
-L 551.313176 90.203056 
-L 644.426689 151.628056 
-" clip-path="url(#p0738a6b80b)" style="fill: none; stroke: #9b2c1f; stroke-width: 2; stroke-linecap: square"/>
+    <path d="M 85.745608 164.322566 
+L 178.859122 134.429069 
+L 271.972635 118.868056 
+L 365.086149 103.716569 
+L 458.199662 90.203056 
+L 551.313176 144.666569 
+L 644.426689 169.646062 
+" clip-path="url(#p1cce493d20)" style="fill: none; stroke: #9b2c1f; stroke-width: 2; stroke-linecap: square"/>
     <defs>
-     <path id="m34c8cfa208" d="M 0 2.5 
+     <path id="m1e99d9867a" d="M 0 2.5 
 C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
 C 2.236584 1.29895 2.5 0.663008 2.5 0 
 C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
@@ -2433,27 +2521,27 @@ C -1.29895 2.236584 -0.663008 2.5 0 2.5
 z
 " style="stroke: #9b2c1f"/>
     </defs>
-    <g clip-path="url(#p0738a6b80b)">
-     <use xlink:href="#m34c8cfa208" x="85.745608" y="208.548562" style="fill: #9b2c1f; stroke: #9b2c1f"/>
-     <use xlink:href="#m34c8cfa208" x="178.859122" y="164.322566" style="fill: #9b2c1f; stroke: #9b2c1f"/>
-     <use xlink:href="#m34c8cfa208" x="271.972635" y="134.429069" style="fill: #9b2c1f; stroke: #9b2c1f"/>
-     <use xlink:href="#m34c8cfa208" x="365.086149" y="118.868056" style="fill: #9b2c1f; stroke: #9b2c1f"/>
-     <use xlink:href="#m34c8cfa208" x="458.199662" y="103.716569" style="fill: #9b2c1f; stroke: #9b2c1f"/>
-     <use xlink:href="#m34c8cfa208" x="551.313176" y="90.203056" style="fill: #9b2c1f; stroke: #9b2c1f"/>
-     <use xlink:href="#m34c8cfa208" x="644.426689" y="151.628056" style="fill: #9b2c1f; stroke: #9b2c1f"/>
+    <g clip-path="url(#p1cce493d20)">
+     <use xlink:href="#m1e99d9867a" x="85.745608" y="164.322566" style="fill: #9b2c1f; stroke: #9b2c1f"/>
+     <use xlink:href="#m1e99d9867a" x="178.859122" y="134.429069" style="fill: #9b2c1f; stroke: #9b2c1f"/>
+     <use xlink:href="#m1e99d9867a" x="271.972635" y="118.868056" style="fill: #9b2c1f; stroke: #9b2c1f"/>
+     <use xlink:href="#m1e99d9867a" x="365.086149" y="103.716569" style="fill: #9b2c1f; stroke: #9b2c1f"/>
+     <use xlink:href="#m1e99d9867a" x="458.199662" y="90.203056" style="fill: #9b2c1f; stroke: #9b2c1f"/>
+     <use xlink:href="#m1e99d9867a" x="551.313176" y="144.666569" style="fill: #9b2c1f; stroke: #9b2c1f"/>
+     <use xlink:href="#m1e99d9867a" x="644.426689" y="169.646062" style="fill: #9b2c1f; stroke: #9b2c1f"/>
     </g>
    </g>
    <g id="line2d_19">
-    <path d="M 85.745608 227.573229 
-L 178.859122 211.073805 
-L 271.972635 186.196693 
-L 365.086149 168.963542 
-L 458.199662 151.508617 
-L 551.313176 139.428364 
-L 644.426689 179.098676 
-" clip-path="url(#p0738a6b80b)" style="fill: none; stroke: #c97a6e; stroke-width: 2; stroke-linecap: square"/>
+    <path d="M 85.745608 211.073805 
+L 178.859122 186.196693 
+L 271.972635 168.963542 
+L 365.086149 151.508617 
+L 458.199662 139.428364 
+L 551.313176 179.405851 
+L 644.426689 203.753999 
+" clip-path="url(#p1cce493d20)" style="fill: none; stroke: #c97a6e; stroke-width: 2; stroke-linecap: square"/>
     <defs>
-     <path id="m20ff52baaf" d="M 0 2.5 
+     <path id="md8e2ca9731" d="M 0 2.5 
 C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
 C 2.236584 1.29895 2.5 0.663008 2.5 0 
 C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
@@ -2465,14 +2553,14 @@ C -1.29895 2.236584 -0.663008 2.5 0 2.5
 z
 " style="stroke: #c97a6e"/>
     </defs>
-    <g clip-path="url(#p0738a6b80b)">
-     <use xlink:href="#m20ff52baaf" x="85.745608" y="227.573229" style="fill: #c97a6e; stroke: #c97a6e"/>
-     <use xlink:href="#m20ff52baaf" x="178.859122" y="211.073805" style="fill: #c97a6e; stroke: #c97a6e"/>
-     <use xlink:href="#m20ff52baaf" x="271.972635" y="186.196693" style="fill: #c97a6e; stroke: #c97a6e"/>
-     <use xlink:href="#m20ff52baaf" x="365.086149" y="168.963542" style="fill: #c97a6e; stroke: #c97a6e"/>
-     <use xlink:href="#m20ff52baaf" x="458.199662" y="151.508617" style="fill: #c97a6e; stroke: #c97a6e"/>
-     <use xlink:href="#m20ff52baaf" x="551.313176" y="139.428364" style="fill: #c97a6e; stroke: #c97a6e"/>
-     <use xlink:href="#m20ff52baaf" x="644.426689" y="179.098676" style="fill: #c97a6e; stroke: #c97a6e"/>
+    <g clip-path="url(#p1cce493d20)">
+     <use xlink:href="#md8e2ca9731" x="85.745608" y="211.073805" style="fill: #c97a6e; stroke: #c97a6e"/>
+     <use xlink:href="#md8e2ca9731" x="178.859122" y="186.196693" style="fill: #c97a6e; stroke: #c97a6e"/>
+     <use xlink:href="#md8e2ca9731" x="271.972635" y="168.963542" style="fill: #c97a6e; stroke: #c97a6e"/>
+     <use xlink:href="#md8e2ca9731" x="365.086149" y="151.508617" style="fill: #c97a6e; stroke: #c97a6e"/>
+     <use xlink:href="#md8e2ca9731" x="458.199662" y="139.428364" style="fill: #c97a6e; stroke: #c97a6e"/>
+     <use xlink:href="#md8e2ca9731" x="551.313176" y="179.405851" style="fill: #c97a6e; stroke: #c97a6e"/>
+     <use xlink:href="#md8e2ca9731" x="644.426689" y="203.753999" style="fill: #c97a6e; stroke: #c97a6e"/>
     </g>
    </g>
    <g id="patch_4">
@@ -2532,58 +2620,58 @@ z
 " style="fill: #393735; opacity: 0.22"/>
    </g>
    <g id="patch_11">
-    <path d="M 63.644842 401.423062 
+    <path d="M 63.643048 401.423062 
 L 115.231554 401.423062 
 L 115.231554 393.233062 
-L 63.644842 393.233062 
+L 63.643048 393.233062 
 z
 " style="fill: #e8c76a; opacity: 0.9"/>
    </g>
    <g id="patch_12">
-    <path d="M 156.756561 401.423062 
-L 208.345068 401.423062 
-L 208.345068 393.233062 
-L 156.756561 393.233062 
+    <path d="M 156.811535 401.423062 
+L 208.396797 401.423062 
+L 208.396797 393.233062 
+L 156.811535 393.233062 
 z
 " style="fill: #e8c76a; opacity: 0.9"/>
    </g>
    <g id="patch_13">
-    <path d="M 249.925049 401.423062 
+    <path d="M 249.933325 401.423062 
 L 301.510311 401.423062 
 L 301.510311 393.233062 
-L 249.925049 393.233062 
+L 249.933325 393.233062 
 z
 " style="fill: #e8c76a; opacity: 0.9"/>
    </g>
    <g id="patch_14">
-    <path d="M 343.046838 401.423062 
+    <path d="M 343.060123 401.423062 
 L 394.623824 401.423062 
 L 394.623824 393.233062 
-L 343.046838 393.233062 
+L 343.060123 393.233062 
 z
 " style="fill: #e8c76a; opacity: 0.9"/>
    </g>
    <g id="patch_15">
-    <path d="M 436.173636 401.423062 
+    <path d="M 436.191941 401.423062 
 L 487.737338 401.423062 
 L 487.737338 393.233062 
-L 436.173636 393.233062 
+L 436.191941 393.233062 
 z
 " style="fill: #e8c76a; opacity: 0.9"/>
    </g>
    <g id="patch_16">
-    <path d="M 529.305455 401.423062 
+    <path d="M 529.328738 401.423062 
 L 580.850851 401.423062 
 L 580.850851 393.233062 
-L 529.305455 393.233062 
+L 529.328738 393.233062 
 z
 " style="fill: #e8c76a; opacity: 0.9"/>
    </g>
    <g id="patch_17">
-    <path d="M 622.442251 401.423062 
+    <path d="M 622.470502 401.423062 
 L 673.964365 401.423062 
 L 673.964365 393.233062 
-L 622.442251 393.233062 
+L 622.470502 393.233062 
 z
 " style="fill: #e8c76a; opacity: 0.9"/>
    </g>
@@ -2592,26 +2680,26 @@ z
    <g id="patch_18">
     <path d="M 64.795068 378.491062 
 L 106.696149 378.491062 
-L 106.696149 323.891064 
-L 64.795068 323.891064 
+L 106.696149 378.491062 
+L 64.795068 378.491062 
 z
-" clip-path="url(#p0738a6b80b)" style="fill: #6b8ca8; opacity: 0.55"/>
+" clip-path="url(#p1cce493d20)" style="fill: #6b8ca8; opacity: 0.55"/>
    </g>
    <g id="patch_19">
     <path d="M 157.908581 378.491062 
 L 199.809662 378.491062 
-L 199.809662 378.491062 
-L 157.908581 378.491062 
+L 199.809662 334.811062 
+L 157.908581 334.811062 
 z
-" clip-path="url(#p0738a6b80b)" style="fill: #6b8ca8; opacity: 0.55"/>
+" clip-path="url(#p1cce493d20)" style="fill: #6b8ca8; opacity: 0.55"/>
    </g>
    <g id="patch_20">
     <path d="M 251.022095 378.491062 
 L 292.923176 378.491062 
-L 292.923176 371.666063 
-L 251.022095 371.666063 
+L 292.923176 378.491062 
+L 251.022095 378.491062 
 z
-" clip-path="url(#p0738a6b80b)" style="fill: #6b8ca8; opacity: 0.55"/>
+" clip-path="url(#p1cce493d20)" style="fill: #6b8ca8; opacity: 0.55"/>
    </g>
    <g id="patch_21">
     <path d="M 344.135608 378.491062 
@@ -2619,7 +2707,7 @@ L 386.036689 378.491062
 L 386.036689 378.491062 
 L 344.135608 378.491062 
 z
-" clip-path="url(#p0738a6b80b)" style="fill: #6b8ca8; opacity: 0.55"/>
+" clip-path="url(#p1cce493d20)" style="fill: #6b8ca8; opacity: 0.55"/>
    </g>
    <g id="patch_22">
     <path d="M 437.249122 378.491062 
@@ -2627,147 +2715,28 @@ L 479.150203 378.491062
 L 479.150203 378.491062 
 L 437.249122 378.491062 
 z
-" clip-path="url(#p0738a6b80b)" style="fill: #6b8ca8; opacity: 0.55"/>
+" clip-path="url(#p1cce493d20)" style="fill: #6b8ca8; opacity: 0.55"/>
    </g>
    <g id="patch_23">
     <path d="M 530.362635 378.491062 
 L 572.263716 378.491062 
-L 572.263716 378.491062 
-L 530.362635 378.491062 
+L 572.263716 367.571062 
+L 530.362635 367.571062 
 z
-" clip-path="url(#p0738a6b80b)" style="fill: #6b8ca8; opacity: 0.55"/>
+" clip-path="url(#p1cce493d20)" style="fill: #6b8ca8; opacity: 0.55"/>
    </g>
    <g id="patch_24">
     <path d="M 623.476149 378.491062 
 L 665.37723 378.491062 
-L 665.37723 376.784813 
-L 623.476149 376.784813 
+L 665.37723 378.491062 
+L 623.476149 378.491062 
 z
-" clip-path="url(#p0738a6b80b)" style="fill: #6b8ca8; opacity: 0.55"/>
+" clip-path="url(#p1cce493d20)" style="fill: #6b8ca8; opacity: 0.55"/>
    </g>
    <g id="matplotlib.axis_3"/>
    <g id="text_31">
-    <!-- 3.2 mm -->
-    <g style="fill: #4f4a80" transform="translate(65.466546 308.534814) scale(0.12 -0.12)">
-     <defs>
-      <path id="Georgia-Italic-33" d="M 3116 3147 
-Q 3231 3022 3279 2872 
-Q 3328 2722 3328 2578 
-Q 3328 2422 3262 2230 
-Q 3197 2038 3075 1888 
-Q 2941 1722 2719 1583 
-Q 2497 1444 2175 1359 
-L 2156 1309 
-Q 2306 1297 2473 1242 
-Q 2641 1188 2772 1094 
-Q 2909 994 2996 836 
-Q 3084 678 3084 459 
-Q 3084 103 2920 -195 
-Q 2756 -494 2491 -697 
-Q 2213 -909 1861 -1025 
-Q 1509 -1141 1109 -1141 
-Q 606 -1141 278 -917 
-Q -50 -694 -50 -366 
-Q -50 -163 65 -6 
-Q 181 150 375 150 
-Q 547 150 628 67 
-Q 709 -16 709 -119 
-Q 709 -253 637 -395 
-Q 566 -538 522 -631 
-Q 538 -653 584 -700 
-Q 631 -747 716 -791 
-Q 800 -834 926 -867 
-Q 1053 -900 1219 -900 
-Q 1425 -900 1645 -804 
-Q 1866 -709 2031 -538 
-Q 2206 -353 2312 -98 
-Q 2419 156 2419 513 
-Q 2419 800 2230 951 
-Q 2041 1103 1675 1103 
-L 1256 1103 
-L 1338 1450 
-L 1616 1450 
-Q 2097 1450 2378 1789 
-Q 2659 2128 2659 2631 
-Q 2659 2916 2515 3064 
-Q 2372 3213 2088 3213 
-Q 1869 3213 1691 3130 
-Q 1513 3047 1419 2944 
-Q 1419 2909 1422 2836 
-Q 1425 2763 1425 2678 
-Q 1425 2378 1300 2237 
-Q 1175 2097 925 2097 
-Q 772 2097 711 2176 
-Q 650 2256 650 2375 
-Q 650 2556 756 2734 
-Q 863 2913 1081 3084 
-Q 1275 3238 1581 3345 
-Q 1888 3453 2238 3453 
-Q 2556 3453 2773 3367 
-Q 2991 3281 3116 3147 
-z
-" transform="scale(0.015625)"/>
-      <path id="Georgia-Italic-2e" d="M 1250 359 
-Q 1250 184 1123 60 
-Q 997 -63 822 -63 
-Q 647 -63 520 60 
-Q 394 184 394 359 
-Q 394 534 520 661 
-Q 647 788 822 788 
-Q 997 788 1123 661 
-Q 1250 534 1250 359 
-z
-" transform="scale(0.015625)"/>
-      <path id="Georgia-Italic-32" d="M 3363 2475 
-Q 3363 2131 3194 1895 
-Q 3025 1659 2734 1494 
-Q 2516 1369 2227 1273 
-Q 1938 1178 1591 1075 
-Q 1294 988 1017 858 
-Q 741 728 563 544 
-L 3053 544 
-L 2925 0 
-L -3 0 
-L 100 425 
-Q 194 550 325 669 
-Q 456 788 634 900 
-Q 791 997 983 1090 
-Q 1175 1184 1400 1272 
-Q 1691 1384 1908 1492 
-Q 2125 1600 2275 1713 
-Q 2503 1881 2598 2079 
-Q 2694 2278 2694 2544 
-Q 2694 2853 2525 3033 
-Q 2356 3213 2088 3213 
-Q 1828 3213 1647 3122 
-Q 1466 3031 1394 2928 
-Q 1394 2891 1398 2822 
-Q 1403 2753 1403 2656 
-Q 1403 2375 1293 2236 
-Q 1184 2097 944 2097 
-Q 772 2097 705 2176 
-Q 638 2256 638 2372 
-Q 638 2556 752 2745 
-Q 866 2934 1075 3097 
-Q 1278 3256 1562 3354 
-Q 1847 3453 2178 3453 
-Q 2709 3453 3036 3190 
-Q 3363 2928 3363 2475 
-z
-" transform="scale(0.015625)"/>
-      <path id="Georgia-Italic-20" transform="scale(0.015625)"/>
-     </defs>
-     <use xlink:href="#Georgia-Italic-33"/>
-     <use xlink:href="#Georgia-Italic-2e" x="55.175781"/>
-     <use xlink:href="#Georgia-Italic-32" x="82.128906"/>
-     <use xlink:href="#Georgia-Italic-20" x="137.988281"/>
-     <use xlink:href="#Georgia-Italic-6d" x="162.109375"/>
-     <use xlink:href="#Georgia-Italic-6d" x="250.048828"/>
-    </g>
-   </g>
-   <g id="text_32">
     <!-- 0.4 mm -->
-    <g style="fill: #4f4a80" transform="translate(251.282948 356.309813) scale(0.12 -0.12)">
+    <g style="fill: #4f4a80" transform="translate(158.169434 236.531062) scale(0.12 -0.12)">
      <defs>
       <path id="Georgia-Italic-30" d="M 3766 2178 
 Q 3766 1731 3605 1315 
@@ -2798,6 +2767,17 @@ Q 2941 1278 3020 1650
 Q 3100 2022 3100 2319 
 z
 " transform="scale(0.015625)"/>
+      <path id="Georgia-Italic-2e" d="M 1250 359 
+Q 1250 184 1123 60 
+Q 997 -63 822 -63 
+Q 647 -63 520 60 
+Q 394 184 394 359 
+Q 394 534 520 661 
+Q 647 788 822 788 
+Q 997 788 1123 661 
+Q 1250 534 1250 359 
+z
+" transform="scale(0.015625)"/>
       <path id="Georgia-Italic-34" d="M 3444 675 
 L 3350 281 
 L 2694 281 
@@ -2817,6 +2797,7 @@ L 2184 675
 L 2659 2738 
 z
 " transform="scale(0.015625)"/>
+      <path id="Georgia-Italic-20" transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#Georgia-Italic-30"/>
      <use xlink:href="#Georgia-Italic-2e" x="61.376953"/>
@@ -2826,9 +2807,9 @@ z
      <use xlink:href="#Georgia-Italic-6d" x="256.884766"/>
     </g>
    </g>
-   <g id="text_33">
+   <g id="text_32">
     <!-- 0.1 mm -->
-    <g style="fill: #4f4a80" transform="translate(624.548877 361.428563) scale(0.12 -0.12)">
+    <g style="fill: #4f4a80" transform="translate(531.435363 269.291062) scale(0.12 -0.12)">
      <defs>
       <path id="Georgia-Italic-31" d="M 2238 3453 
 Q 2172 3219 2094 2917 
@@ -2868,7 +2849,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p0738a6b80b">
+  <clipPath id="p1cce493d20">
    <rect x="29.8775" y="50.891062" width="689.04" height="327.6"/>
   </clipPath>
  </defs>
